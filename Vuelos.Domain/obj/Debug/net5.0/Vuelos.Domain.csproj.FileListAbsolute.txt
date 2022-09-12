@@ -1,0 +1,15 @@
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.deps.json
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.dll
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ref\Vuelos.Domain.dll
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.pdb
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.AssemblyReference.cache
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.AssemblyInfoInputs.cache
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.AssemblyInfo.cs
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.CopyComplete
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.dll
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\ref\Vuelos.Domain.dll
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.pdb

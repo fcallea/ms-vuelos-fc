@@ -1,0 +1,5 @@
+E:\gitVuelo\DDD_Vuelos\ShareKernel\bin\Debug\net5.0\publish\ShareKernel.dll
+E:\gitVuelo\DDD_Vuelos\ShareKernel\bin\Debug\net5.0\publish\ShareKernel.deps.json
+E:\gitVuelo\DDD_Vuelos\ShareKernel\bin\Debug\net5.0\publish\ShareKernel.pdb
+E:\gitVuelo\DDD_Vuelos\ShareKernel\bin\Debug\net5.0\publish\MediatR.dll
+E:\gitVuelo\DDD_Vuelos\ShareKernel\bin\Debug\net5.0\publish\MediatR.Contracts.dll
