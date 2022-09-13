@@ -13,3 +13,18 @@ C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\V
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\ref\Vuelos.Domain.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.pdb
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.deps.json
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ref\Vuelos.Domain.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.pdb
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.AssemblyReference.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.AssemblyInfoInputs.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.AssemblyInfo.cs
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.csproj.CopyComplete
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\ref\Vuelos.Domain.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.pdb

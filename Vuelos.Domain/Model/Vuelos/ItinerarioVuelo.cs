@@ -10,7 +10,8 @@ namespace Vuelos.Domain.Model.Vuelos
     public class ItinerarioVuelo : Entity<Guid>
     {
         public Guid IdTripulacion { get; private set; }
-        public Guid IdAeronave { get; private set; }        
+        public Guid IdAeronave { get; private set; }
+        public Guid IdVuelo { get; private set; }
         public DateTime FechaHoraCreacion { get; private set; }
         public string ZonaAbordaje { get; private set; }
         public string NroPuertaAbordaje { get; private set; }
@@ -19,7 +20,7 @@ namespace Vuelos.Domain.Model.Vuelos
         public DateTime FechaHoraLLegada { get; private set; }        
         public int NroAsientosHabilitados { get; private set; }
         public string TipoVuelo { get; private set; }
-        public string EstadoVuelo { get; private set; }
+        public string EstadoItinerarioVuelo { get; private set; }
 
         internal ItinerarioVuelo (Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
         {
@@ -32,7 +33,7 @@ namespace Vuelos.Domain.Model.Vuelos
             FechaHoraAbordaje = fechaHoraAbordaje;
             FechaHoraPartida = fechaHoraPartida;
             TipoVuelo = "ESTANDAR";
-            EstadoVuelo = "";
+            EstadoItinerarioVuelo = "";
         }
         private ItinerarioVuelo() { }
 

@@ -38,7 +38,12 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo
                 string nroVuelo = await _vueloService.GenerarNroVueloAsync();
                 Vuelo objDestinoVuelo = _vueloFactory.Create(request.IdAeropuertoOrigen, request.IdAeropuertoDestino, nroVuelo);
 
-                objDestinoVuelo.ConsolidarPedido();
+                objDestinoVuelo.ConsolidarDestinoVuelo();
+
+                await _vueloRepository.CreateAsync(objDestinoVuelo);
+
+                await _unitOfWork.Commit();
+
                 return objDestinoVuelo.Id;
             }
             catch (Exception ex)

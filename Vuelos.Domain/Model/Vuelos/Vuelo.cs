@@ -19,7 +19,7 @@ namespace Vuelos.Domain.Model.Vuelos
 
         private readonly ICollection<ItinerarioVuelo> _listaItinerariosVuelo;
 
-        public IReadOnlyCollection<ItinerarioVuelo> ListaItinerarios
+        public IReadOnlyCollection<ItinerarioVuelo> ListaItinerariosVuelo
         {
             get
             {

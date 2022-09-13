@@ -14,7 +14,6 @@ C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\Sha
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
@@ -22,3 +21,16 @@ C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\Sha
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
 C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
