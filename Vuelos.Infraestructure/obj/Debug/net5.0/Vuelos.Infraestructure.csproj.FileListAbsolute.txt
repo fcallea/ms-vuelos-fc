@@ -1,44 +1,88 @@
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\refint\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.csproj.CopyComplete
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache

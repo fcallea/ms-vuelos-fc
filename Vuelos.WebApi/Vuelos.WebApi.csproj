@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>45ae2b52-9a98-472b-9135-42786b965e12</UserSecretsId>
+    <UserSecretsId>0cc91975-4b91-4b81-90e7-9964ba2c559c</UserSecretsId>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -16,5 +16,5 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\Vuelos.Infraestructure\Vuelos.Infraestructure.csproj" />
 	</ItemGroup>
-	
+
 </Project>

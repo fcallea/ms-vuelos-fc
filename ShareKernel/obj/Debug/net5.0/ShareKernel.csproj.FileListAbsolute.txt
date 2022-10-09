@@ -2,7 +2,6 @@ E:\Pedidos\ms-pedidos\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
 E:\Pedidos\ms-pedidos\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
 E:\Pedidos\ms-pedidos\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
 E:\Pedidos\ms-pedidos\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
-E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
@@ -10,27 +9,49 @@ E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompil
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
 E:\Pedidos\ms-pedidos\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\refint\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb

@@ -54,9 +54,6 @@ namespace Vuelos.Infraestructure.EF.Config.WriteConfig
             builder.Property(x => x.IdAeronave)
                 .HasColumnName("IdAeronave");
 
-            builder.Property(x => x.IdVuelo)
-                .HasColumnName("IdVuelo");
-
             builder.Property(x => x.FechaHoraCreacion)
                 .HasColumnName("FechaHoraCreacion")
                 .HasColumnType("datetime");

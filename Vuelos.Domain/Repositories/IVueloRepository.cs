@@ -10,6 +10,7 @@ namespace Vuelos.Domain.Repositories
 {
     public interface IVueloRepository : IRepository<Vuelo, Guid>
     {
+        Task<Vuelo> FindByIdVueloPorDestinoAsync(Guid idAeropuertoOrigen, Guid idAeropuertoDestino);
         Task UpdateAsync(Vuelo obj);
     }
 }

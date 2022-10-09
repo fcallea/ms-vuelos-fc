@@ -27,7 +27,10 @@ namespace Vuelos.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //*NUNCA MAS OLVIDAR PONER ESTA SENTENCIA, NOME DEJABA GENERAR LA MIGRACION
+            //SALIA ESTO!!!!! Unable to create an object of type 'ReadDbContext'. For the different patterns supported at design time, see https://go.microsoft.com/fwlink/?linkid=851728
             services.AddInfrastructure(Configuration);
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

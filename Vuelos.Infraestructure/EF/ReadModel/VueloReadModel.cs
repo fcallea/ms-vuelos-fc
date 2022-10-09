@@ -11,10 +11,10 @@ namespace Vuelos.Infraestructure.EF.ReadModel
         public Guid Id { get; set; }
         public Guid IdAeropuertoOrigen { get; set; }
         public Guid IdAeropuertoDestino { get; set; }
-        public string NroVuelo { get; set; }
+        public int NroVuelo { get; set; }
         public string EstadoVuelo { get; set; }
         public decimal MillasVuelo { get; set; }
 
-        public ICollection<ItinerarioVueloReadModel> Itinerario { get; set; }
+        public ICollection<ItinerarioVueloReadModel> ItinerarioVuelo { get; set; }
     }
 }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Application\\Vuelos.Application.csproj": {}
+    "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\ShareKernel.csproj": {
+    "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\ShareKernel.csproj",
+        "projectUniqueName": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
         "projectName": "ShareKernel",
-        "projectPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\ShareKernel.csproj",
-        "packagesPath": "C:\\Users\\FamiliaCCH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\obj\\",
+        "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
+        "packagesPath": "C:\\Users\\JIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\FamiliaCCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +58,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Application\\Vuelos.Application.csproj": {
+    "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Application\\Vuelos.Application.csproj",
+        "projectUniqueName": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj",
         "projectName": "Vuelos.Application",
-        "projectPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Application\\Vuelos.Application.csproj",
-        "packagesPath": "C:\\Users\\FamiliaCCH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Application\\obj\\",
+        "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj",
+        "packagesPath": "C:\\Users\\JIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\FamiliaCCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +90,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\Vuelos.Domain.csproj": {
-                "projectPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\Vuelos.Domain.csproj"
+              "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj": {
+                "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj"
               }
             }
           }
@@ -130,21 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\Vuelos.Domain.csproj": {
+    "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\Vuelos.Domain.csproj",
+        "projectUniqueName": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
         "projectName": "Vuelos.Domain",
-        "projectPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\Vuelos.Domain.csproj",
-        "packagesPath": "C:\\Users\\FamiliaCCH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\Vuelos.Domain\\obj\\",
+        "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
+        "packagesPath": "C:\\Users\\JIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\FamiliaCCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,8 +170,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\ShareKernel.csproj": {
-                "projectPath": "C:\\Users\\FamiliaCCH\\Desktop\\prueba\\MS-Vuelos-FC\\ShareKernel\\ShareKernel.csproj"
+              "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj": {
+                "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj"
               }
             }
           }
@@ -188,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

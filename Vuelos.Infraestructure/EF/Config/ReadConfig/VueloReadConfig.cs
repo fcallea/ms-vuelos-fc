@@ -9,35 +9,36 @@ using Vuelos.Infraestructure.EF.ReadModel;
 
 namespace Vuelos.Infraestructure.EF.Config.ReadConfig
 {
-    class VueloReadConfig : IEntityTypeConfiguration<VueloReadModel>, IEntityTypeConfiguration<ItinerarioVueloReadModel>
+    public class VueloReadConfig : IEntityTypeConfiguration<VueloReadModel>, IEntityTypeConfiguration<ItinerarioVueloReadModel>
     {
         public void Configure(EntityTypeBuilder<VueloReadModel> builder)
         {
             builder.ToTable("Vuelo");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.IdAeropuertoOrigen)
+            builder.Property<Guid>(x => x.IdAeropuertoOrigen)
                 .HasColumnName("IdAeropuertoOrigen")
-                .HasMaxLength(40);
+                .HasColumnType("uniqueidentifier");
 
-            builder.Property(x => x.IdAeropuertoDestino)
+            builder.Property<Guid>(x => x.IdAeropuertoDestino)
                 .HasColumnName("IdAeropuertoDestino")
-                .HasMaxLength(40); 
+                .HasColumnType("uniqueidentifier");
 
-            builder.Property(x => x.NroVuelo)
+            builder.Property<int>(x => x.NroVuelo)
                 .HasColumnName("NroVuelo")
-                .HasMaxLength(8);
+                .HasColumnType("int");
 
-            builder.Property(x => x.EstadoVuelo)
+            builder.Property<string>(x => x.EstadoVuelo)
                 .HasColumnName("EstadoVuelo")
+                .HasColumnType("nvarchar(20)")
                 .HasMaxLength(20);
 
-            builder.Property(x => x.MillasVuelo)
+            builder.Property<decimal>(x => x.MillasVuelo)
                 .HasColumnName("MillasVuelo")
                 .HasColumnType("decimal")
                 .HasPrecision(12, 2);
 
-            builder.HasMany(x => x.Itinerario)
+            builder.HasMany(x => x.ItinerarioVuelo)
                 .WithOne(x => x.Vuelo);
         }
 
@@ -46,47 +47,54 @@ namespace Vuelos.Infraestructure.EF.Config.ReadConfig
             builder.ToTable("ItinerarioVuelo");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.IdTripulacion)
+            builder.Property<Guid>(x => x.IdTripulacion)
                 .HasColumnName("IdTripulacion")
-                .HasMaxLength(40);
+                .HasColumnType("uniqueidentifier");
 
-            builder.Property(x => x.IdAeronave)
+            builder.Property<Guid>(x => x.IdAeronave)
                 .HasColumnName("IdAeronave")
-                .HasMaxLength(40);
+                .HasColumnType("uniqueidentifier");
 
-            builder.Property(x => x.IdVuelo)
+            builder.Property<Guid>(x => x.IdVuelo)
                 .HasColumnName("IdVuelo")
                 .HasMaxLength(40);
 
-            builder.Property(x => x.FechaHoraCreacion)
+            builder.Property<DateTime>(x => x.FechaHoraCreacion)
                 .HasColumnName("FechaHoraCreacion")
-                .HasColumnType("datetime");
+                .HasColumnType("DateTime");
 
-            builder.Property(x => x.ZonaAbordaje)
+            builder.Property<string>(x => x.ZonaAbordaje)
                 .HasColumnName("ZonaAbordaje")
+                .HasColumnType("nvarchar(20)")
                 .HasMaxLength(20);
 
-            builder.Property(x => x.NroPuertaAbordaje)
+            builder.Property<string>(x => x.NroPuertaAbordaje)
                 .HasColumnName("NroPuertaAbordaje")
+                .HasColumnType("nvarchar(20)")
                 .HasMaxLength(20);
 
-            builder.Property(x => x.FechaHoraAbordaje)
+            builder.Property<DateTime>(x => x.FechaHoraAbordaje)
                 .HasColumnName("FechaHoraAbordaje")
-                .HasColumnType("datetime");
+                .HasColumnType("DateTime");
 
             builder.Property(x => x.FechaHoraPartida)
                 .HasColumnName("FechaHoraPartida")
                 .HasColumnType("datetime");
 
-            builder.Property(x => x.NroAsientosHabilitados)
-                .HasColumnName("NroAsientosHabilitados");
+            builder.Property<int>(x => x.NroAsientosHabilitados)
+                .HasColumnName("NroAsientosHabilitados")
+                .HasColumnType("int");
 
-            builder.Property(x => x.TipoVuelo)
+            builder.Property<string>(x => x.TipoVuelo)
                 .HasColumnName("TipoVuelo")
+                .HasColumnType("nvarchar(20)")
                 .HasMaxLength(20);
 
-            builder.Property(x => x.EstadoItinerarioVuelo)
-                .HasColumnName("EstadoItinerarioVuelo");
+            builder.Property<string>(x => x.EstadoItinerarioVuelo)
+                .HasColumnName("EstadoItinerarioVuelo")
+                .HasColumnType("nvarchar(20)")
+                .HasMaxLength(20);
+
         }
     }
 }

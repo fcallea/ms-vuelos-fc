@@ -1,9 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 
 namespace Vuelos.Application.Services
 {
     public interface IVueloService
     {
-        Task<string> GenerarNroVueloAsync();
+        Task<decimal> CalcularMillasVueloAsync(Guid idAeropuertoOrigen, Guid idAeropuertoDestino);
+        Task<int> GenerarNroVueloAsync(Guid idAeropuertoOrigen, Guid idAeropuertoDestino);
     }
 }

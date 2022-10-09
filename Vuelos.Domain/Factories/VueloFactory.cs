@@ -9,9 +9,9 @@ namespace Vuelos.Domain.Factories
 {
     public class VueloFactory : IVueloFactory
     {
-        public Vuelo Create(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, string nroVuelo)
+        public Vuelo CrearDestinoVuelo (Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo)
         {
-            return new Vuelo(idAeropuertoOrigen, idAeropuertoDestino, nroVuelo);
+            return new Vuelo(idAeropuertoOrigen, idAeropuertoDestino, nroVuelo, millasVuelo);
         }
     }
 }

@@ -11,16 +11,17 @@ namespace Vuelos.Domain.Model.Vuelos
     {
         public Guid IdTripulacion { get; private set; }
         public Guid IdAeronave { get; private set; }
-        public Guid IdVuelo { get; private set; }
         public DateTime FechaHoraCreacion { get; private set; }
         public string ZonaAbordaje { get; private set; }
         public string NroPuertaAbordaje { get; private set; }
-        public DateTime FechaHoraAbordaje { get; private set; }
-        public DateTime FechaHoraPartida { get; private set; }
-        public DateTime FechaHoraLLegada { get; private set; }        
+        public DateTime? FechaHoraAbordaje { get; private set; }
+        public DateTime? FechaHoraPartida { get; private set; }
+        public DateTime? FechaHoraLLegada { get; private set; }        
         public int NroAsientosHabilitados { get; private set; }
         public string TipoVuelo { get; private set; }
         public string EstadoItinerarioVuelo { get; private set; }
+
+        private ItinerarioVuelo() { }
 
         internal ItinerarioVuelo (Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
         {
@@ -35,7 +36,6 @@ namespace Vuelos.Domain.Model.Vuelos
             TipoVuelo = "ESTANDAR";
             EstadoItinerarioVuelo = "";
         }
-        private ItinerarioVuelo() { }
 
         internal void ModificarVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
         {

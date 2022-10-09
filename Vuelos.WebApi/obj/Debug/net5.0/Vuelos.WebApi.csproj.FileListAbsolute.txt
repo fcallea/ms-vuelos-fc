@@ -1,146 +1,295 @@
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
-C:\Users\fcallea\Downloads\Caso de Estudio - Proyecto Final (1)\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
-C:\Users\FamiliaCCH\Desktop\prueba\MS-Vuelos-FC\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
+E:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.xml
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
+D:\ProyectoFinalVuelo\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.StaticWebAssets.xml
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\refint\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.Development.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\appsettings.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.StaticWebAssets.xml
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.exe
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Contracts.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Application.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\scopedcss\bundle\Vuelos.WebApi.styles.css
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\staticwebassets\Vuelos.WebApi.StaticWebAssets.Manifest.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.RazorTargetAssemblyInfo.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.csproj.CopyComplete
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache

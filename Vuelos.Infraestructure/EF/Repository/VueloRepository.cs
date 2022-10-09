@@ -13,6 +13,7 @@ namespace Vuelos.Infraestructure.EF.Repository
     public class VueloRepository : IVueloRepository
     {
         public readonly DbSet<Vuelo> _vuelos;
+
         public VueloRepository(WriteDbContext context)
         {
             _vuelos = context.Vuelo;
@@ -27,6 +28,17 @@ namespace Vuelos.Infraestructure.EF.Repository
         {
             return await _vuelos.Include("_listaItinerariosVuelo")
                 .SingleAsync(x => x.Id == id);
+        }
+
+        public async Task<Vuelo> FindByIdDestinoVueloAsync(Guid id)
+        {
+            return await _vuelos.SingleOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<Vuelo> FindByIdVueloPorDestinoAsync(Guid idAeropuertoOrigen, Guid idAeropuertoDestino)
+        {
+            string EstadoActivo = "ACTIVO";
+            return await _vuelos.SingleOrDefaultAsync(x => x.IdAeropuertoOrigen == idAeropuertoOrigen && x.IdAeropuertoDestino == idAeropuertoDestino);
         }
 
         public Task UpdateAsync(Vuelo obj)

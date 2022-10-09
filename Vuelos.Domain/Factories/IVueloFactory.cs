@@ -5,6 +5,6 @@ namespace Vuelos.Domain.Factories
 {
     public interface IVueloFactory
     {
-        Vuelo Create(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, string nroVuelo);
+        Vuelo CrearDestinoVuelo(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo);
     }
 }
