@@ -21,6 +21,5 @@ namespace Vuelos.Application
 
             return services;
         }
-
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PsOiNSxrIoOEYGoKtHsoKiWpUzhhr4PbrintXZTz4J9WEGELxqOM4Yg3l9dbIdzvrz+DjR1nkkUPLOQsPfONeA==",
+  "dgSpecHash": "DMrCpRNyDtJwzxPnKBhiqEilCnXCCg/DwLlduqteBLQhWQUZJmy1sGBJARwE3EcIKYnbqGj4nrvx7j3JObSYwQ==",
   "success": true,
-  "projectFilePath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
+  "projectFilePath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

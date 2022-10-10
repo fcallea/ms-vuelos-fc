@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using Vuelos.Application.Dto.Vuelo;
 using Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo;
+using Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById;
 
 namespace Vuelos.WebApi.Controllers
 {
@@ -12,7 +14,6 @@ namespace Vuelos.WebApi.Controllers
     public class VuelosController : ControllerBase
     {
         private readonly IMediator _mediator;
-
 
         public VuelosController(IMediator mediator)
         {
@@ -28,6 +29,18 @@ namespace Vuelos.WebApi.Controllers
                 return BadRequest();
 
             return Ok(id);
+        }
+
+        [Route("{id:guid}")]
+        [HttpGet]
+        public async Task<IActionResult> GetPedidoById([FromRoute] GetDestinoVueloByIdQuery command)
+        {
+            DestinoVueloDto result = await _mediator.Send(command);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(result);
         }
     }
 }

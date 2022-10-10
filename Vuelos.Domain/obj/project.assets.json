@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FamiliaCCH\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
+      "projectUniqueName": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
       "projectName": "Vuelos.Domain",
-      "projectPath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
-      "packagesPath": "C:\\Users\\FamiliaCCH\\.nuget\\packages\\",
-      "outputPath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Domain\\obj\\",
+      "projectPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FamiliaCCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\VUELOS\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj": {
-              "projectPath": "D:\\VUELOS\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj"
+            "D:\\API\\Proyectos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj": {
+              "projectPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj"
             }
           }
         }
@@ -83,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
