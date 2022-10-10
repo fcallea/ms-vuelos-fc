@@ -4,6 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="EF\UseCases\**" />
+    <EmbeddedResource Remove="EF\UseCases\**" />
+    <None Remove="EF\UseCases\**" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
@@ -25,7 +31,6 @@
 	  <Folder Include="EF\Config\WriteConfig\" />
 	  <Folder Include="EF\Config\ReadConfig\" />
 	  <Folder Include="EF\Contexts\" />
-	  <Folder Include="EF\UseCases\" />
 	  <Folder Include="EF\ReadModel\" />
 	</ItemGroup>	
 	

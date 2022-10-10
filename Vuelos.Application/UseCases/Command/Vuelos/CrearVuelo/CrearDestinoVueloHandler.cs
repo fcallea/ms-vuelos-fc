@@ -33,18 +33,25 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo
 
         public async Task<Guid> Handle(CrearDestinoVueloCommand request, CancellationToken cancellationToken)
         {
+            Guid reqIdAeropuertoOrigen = request.IdAeropuertoOrigen;
+            Guid reqIdAeropuertoDestino = request.IdAeropuertoDestino;
+            int nroVuelo = 0;
+            decimal millasVuelo = 0;
+
             var vuelo = await vueloRepository.FindByIdVueloPorDestinoAsync(request.IdAeropuertoOrigen, request.IdAeropuertoDestino);
 
-            int nroVuelo = await vueloService.GenerarNroVueloAsync(request.IdAeropuertoOrigen, request.IdAeropuertoDestino);
-            decimal millasVuelo = await vueloService.CalcularMillasVueloAsync(request.IdAeropuertoOrigen, request.IdAeropuertoDestino);
+            if (vuelo is null)
+            {
+                nroVuelo = await vueloService.GenerarNroVueloAsync(reqIdAeropuertoOrigen, reqIdAeropuertoDestino);
+                millasVuelo = await vueloService.CalcularMillasVueloAsync(reqIdAeropuertoOrigen, reqIdAeropuertoDestino);
 
-            var destinoVuelo = vueloFactory.CrearDestinoVuelo(request.IdAeropuertoOrigen, request.IdAeropuertoDestino, nroVuelo, millasVuelo);
-
-            await vueloRepository.CreateAsync(destinoVuelo);
+                vuelo = vueloFactory.CrearDestinoVuelo(reqIdAeropuertoOrigen, reqIdAeropuertoDestino, nroVuelo, millasVuelo);
+                await vueloRepository.CreateAsync(vuelo);
+            }
 
             await unitOfWork.Commit();
 
-            return destinoVuelo.Id;
+            return vuelo.Id;
         }
     }
 }
