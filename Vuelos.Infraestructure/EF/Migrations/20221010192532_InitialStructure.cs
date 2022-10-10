@@ -8,6 +8,22 @@ namespace Vuelos.Infraestructure.EF.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Aeropuerto",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    NombreAeropuerto = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    Localidad = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    Departamento = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    OACI = table.Column<string>(type: "nvarchar(4)", maxLength: 4, nullable: true),
+                    IATA = table.Column<string>(type: "nvarchar(3)", maxLength: 3, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Aeropuerto", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Vuelo",
                 columns: table => new
                 {
@@ -61,6 +77,9 @@ namespace Vuelos.Infraestructure.EF.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Aeropuerto");
+
             migrationBuilder.DropTable(
                 name: "ItinerarioVuelo");
 

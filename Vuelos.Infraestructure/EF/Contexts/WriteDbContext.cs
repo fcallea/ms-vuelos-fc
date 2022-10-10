@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Vuelos.Domain.Model.Aeropuertos;
 
 namespace Vuelos.Infraestructure.EF.Contexts
 {
@@ -13,6 +14,7 @@ namespace Vuelos.Infraestructure.EF.Contexts
     {
         public virtual DbSet<Vuelo> Vuelo { get; set; }
         public virtual DbSet<ItinerarioVuelo> ItinerarioVuelo { get; set; }
+        public virtual DbSet<Aeropuerto> Aeropuerto { get; set; }
 
         public WriteDbContext(DbContextOptions<WriteDbContext> options) : base(options)
         {
@@ -25,6 +27,8 @@ namespace Vuelos.Infraestructure.EF.Contexts
             modelBuilder.ApplyConfiguration<Vuelo>(vueloConfig);
             modelBuilder.ApplyConfiguration<ItinerarioVuelo>(vueloConfig);
 
+            var aeropuertoConfig = new AeropuertoWriteConfig();
+            modelBuilder.ApplyConfiguration<Aeropuerto>(aeropuertoConfig);
         }
     }
 }

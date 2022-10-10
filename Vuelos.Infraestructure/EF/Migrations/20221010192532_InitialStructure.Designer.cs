@@ -10,7 +10,7 @@ using Vuelos.Infraestructure.EF.Contexts;
 namespace Vuelos.Infraestructure.EF.Migrations
 {
     [DbContext(typeof(ReadDbContext))]
-    [Migration("20221010132529_InitialStructure")]
+    [Migration("20221010192532_InitialStructure")]
     partial class InitialStructure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,6 +20,37 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeropuertoReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Departamento")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.Property<string>("IATA")
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
+
+                    b.Property<string>("Localidad")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.Property<string>("NombreAeropuerto")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.Property<string>("OACI")
+                        .HasMaxLength(4)
+                        .HasColumnType("nvarchar(4)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Aeropuerto");
+                });
 
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.ItinerarioVueloReadModel", b =>
                 {

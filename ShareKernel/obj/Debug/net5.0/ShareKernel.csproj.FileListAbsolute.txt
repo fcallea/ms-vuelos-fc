@@ -71,7 +71,6 @@ D:\API\Proyectos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
-D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs

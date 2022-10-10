@@ -11,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vuelos.Infraestructure.EF.Repository;
+using Aeropuertos.Infraestructure.EF.Repository;
 
 namespace Vuelos.Infraestructure
 {
@@ -30,6 +31,7 @@ namespace Vuelos.Infraestructure
 
 
             services.AddScoped<IVueloRepository, VueloRepository>();
+            services.AddScoped<IAeropuertoRepository, AeropuertoRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 

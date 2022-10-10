@@ -28,10 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="EF\Config\WriteConfig\" />
-	  <Folder Include="EF\Config\ReadConfig\" />
 	  <Folder Include="EF\Contexts\" />
-	  <Folder Include="EF\ReadModel\" />
 	</ItemGroup>	
 	
 </Project>
