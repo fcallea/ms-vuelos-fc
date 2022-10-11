@@ -32,6 +32,7 @@ namespace Vuelos.Infraestructure
 
             services.AddScoped<IVueloRepository, VueloRepository>();
             services.AddScoped<IAeropuertoRepository, AeropuertoRepository>();
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 

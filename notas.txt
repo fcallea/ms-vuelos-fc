@@ -1,0 +1,30 @@
+===========================================
+comando migrar tablas
+===========================================
+add-migration InitialStructure -Context ReadDbContext -OutputDir EF/Migrations
+
+update-database -Context ReadDbContext
+
+
+
+===========================================
+script fuerza drop database
+===========================================
+USE master ;  
+GO  
+ALTER DATABASE VuelosDB
+SET SINGLE_USER
+WITH ROLLBACK IMMEDIATE
+go
+DROP DATABASE VuelosDB ;  
+GO  
+
+===========================================
+scripts cargar aeropuertos
+===========================================
+insert into Aeropuerto
+values
+('B9EF02C0-B11B-4616-963B-67236D597F2C','El Alto International Airport','EL ALTO','LA PAZ','SLLP','LPB'),
+('CA7FBB54-3020-4705-B28E-F0ED9FAD8F17','Capitan Oriel Lea Plaza Airport','TARIJA','TARIJA','SLTJ','TJA'),
+('787E2B52-52E3-4BCD-B697-0A3CAC1BCE41','Jorge Wilsterman International Airport','COCHABAMBA','COCHABAMBA','SLCB','CBB'),
+('C5E25DC5-B521-42D7-99AF-559104F15CD7','Viru Viru International Airport','SANTA CRUZ','SANTA CRUZ','SLVR','VVI')

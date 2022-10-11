@@ -9,7 +9,7 @@ using Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Vuelo")]
     [ApiController]
     public class VuelosController : ControllerBase
     {

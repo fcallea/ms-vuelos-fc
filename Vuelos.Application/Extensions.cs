@@ -19,6 +19,8 @@ namespace Vuelos.Application
             services.AddTransient<IVueloService, VueloService>();
             services.AddTransient<IVueloFactory, VueloFactory>();
 
+            services.AddTransient<IAeropuertoFactory, AeropuertoFactory>();
+
             return services;
         }
     }
