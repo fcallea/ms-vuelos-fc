@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo
+namespace Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo
 {
     public class CrearDestinoVueloCommand : IRequest<Guid>
     {

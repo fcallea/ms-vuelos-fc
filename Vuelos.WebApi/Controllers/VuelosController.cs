@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using Vuelos.Application.Dto.Vuelo;
-using Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo;
+using Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo;
 using Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById;
 
 namespace Vuelos.WebApi.Controllers

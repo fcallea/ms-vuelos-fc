@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Vuelos.Application.Services;
+using Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo;
 using Vuelos.Domain.Factories;
 using Vuelos.Domain.Repositories;
 
