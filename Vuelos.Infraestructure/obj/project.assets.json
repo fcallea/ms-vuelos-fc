@@ -6050,19 +6050,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\FamiliaCCH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj",
+      "projectUniqueName": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj",
       "projectName": "Vuelos.Infraestructure",
-      "projectPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Infraestructure\\obj\\",
+      "projectPath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\FamiliaCCH\\.nuget\\packages\\",
+      "outputPath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FamiliaCCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6076,8 +6076,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj": {
-              "projectPath": "D:\\API\\Proyectos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj"
+            "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj": {
+              "projectPath": "D:\\VUELOS\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj"
             }
           }
         }
@@ -6128,7 +6128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

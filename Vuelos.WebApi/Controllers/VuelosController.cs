@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using Vuelos.Application.Dto.Vuelo;
+using Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo;
 using Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo;
 using Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById;
 
@@ -22,6 +23,18 @@ namespace Vuelos.WebApi.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CrearDestinoVueloCommand command)
+        {
+            Guid id = await _mediator.Send(command);
+
+            if (id == Guid.Empty)
+                return BadRequest();
+
+            return Ok(id);
+        }
+
+        [Route("AsignarVuelo")]
+        [HttpPost]
+        public async Task<IActionResult> AsignarVuelo([FromBody] AsignarVueloCommand command)
         {
             Guid id = await _mediator.Send(command);
 

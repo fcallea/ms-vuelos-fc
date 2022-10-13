@@ -10,7 +10,7 @@ using Vuelos.Infraestructure.EF.Contexts;
 namespace Vuelos.Infraestructure.EF.Migrations
 {
     [DbContext(typeof(ReadDbContext))]
-    [Migration("20221011012047_InitialStructure")]
+    [Migration("20221013030108_InitialStructure")]
     partial class InitialStructure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

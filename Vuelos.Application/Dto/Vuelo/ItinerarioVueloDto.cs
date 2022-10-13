@@ -8,13 +8,13 @@ namespace Vuelos.Application.Dto.Vuelo
 {
     public class ItinerarioVueloDto
     {
-        public Guid IdTripulacion { get; private set; }
-        public Guid IdAeronave { get; private set; }
-        public string ZonaAbordaje { get; private set; }
-        public string NroPuertaAbordaje { get; private set; }
-        public DateTime? FechaHoraAbordaje { get; private set; }
-        public DateTime? FechaHoraPartida { get; private set; }
-        public DateTime? FechaHoraLLegada { get; private set; }
-        public string TipoVuelo { get; private set; }
+        public Guid IdTripulacion { get; set; }
+        public Guid IdAeronave { get; set; }
+        public string ZonaAbordaje { get; set; }
+        public string NroPuertaAbordaje { get; set; }
+        public DateTime FechaHoraAbordaje { get; set; }
+        public DateTime FechaHoraPartida { get; set; }
+        public DateTime FechaHoraLLegada { get; set; }
+        public string TipoVuelo { get; set; }
     }
 }

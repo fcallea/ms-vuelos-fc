@@ -10,15 +10,15 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
 {
     public class AsignarVueloCommand : IRequest<Guid>
     {
-        public Guid IdVuelo { get; private set; }
+        public Guid IdVuelo { get; set; }
         public List<ItinerarioVueloDto> ListaItinerarios { get; set; }
 
         private AsignarVueloCommand() { }
 
-        public AsignarVueloCommand(Guid idVuelo, List<ItinerarioVueloDto> listaItinerario)
+        public AsignarVueloCommand(VueloDto vuelo)
         {
-            IdVuelo = idVuelo;
-            ListaItinerarios = listaItinerario;
+            IdVuelo = vuelo.IdVuelo; //new Guid("6B49D9BE-56CE-4BDC-B41B-B58970740A3B");
+            ListaItinerarios = (List<ItinerarioVueloDto>)vuelo.ListaItinerario;
         }
     }
 }

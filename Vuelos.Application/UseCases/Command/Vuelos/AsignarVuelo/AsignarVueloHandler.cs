@@ -48,18 +48,19 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
                 {
                     IdVuelo = objVuelo.Id,
                 };
-                /*
-                foreach (var item in objdestinoVuelo.Detalle)
+                
+                foreach (var itinerarioVuelo in request.ListaItinerarios)
                 {
-                    result.Detalle.Add(new DetalledestinoVueloDto()
-                    {
-                        Cantidad = item.Cantidad,
-                        Instrucciones = item.Instrucciones,
-                        Precio = item.Precio,
-                        ProductoId = item.ProductoId
-                    });
+                    objVuelo.AgregarItinerarioVuelo(itinerarioVuelo.IdTripulacion, itinerarioVuelo.IdAeronave, itinerarioVuelo.ZonaAbordaje, itinerarioVuelo.NroPuertaAbordaje, itinerarioVuelo.FechaHoraAbordaje, itinerarioVuelo.FechaHoraPartida);
                 }
-                */
+
+                objVuelo.ConsolidarVuelo();
+
+                await vueloRepository.CreateAsync(objVuelo);
+
+                await unitOfWork.Commit();
+
+                return objVuelo.Id;
             }
             catch (Exception ex)
             {

@@ -13,11 +13,11 @@ namespace Vuelos.Domain.Event
         public Guid IdAeropuertoOrigen { get; }
         public Guid IdAeropuertoDestino { get; }
 
-        public DestinoVueloCreado(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, Guid idVuelo) : base(DateTime.Now)
+        public DestinoVueloCreado(Guid idVuelo, Guid idAeropuertoOrigen, Guid idAeropuertoDestino) : base(DateTime.Now)
         {
+            IdVuelo = idVuelo;
             IdAeropuertoOrigen = idAeropuertoOrigen;
             IdAeropuertoDestino = idAeropuertoDestino;
-            IdVuelo = idVuelo;
         }
     }
 }
