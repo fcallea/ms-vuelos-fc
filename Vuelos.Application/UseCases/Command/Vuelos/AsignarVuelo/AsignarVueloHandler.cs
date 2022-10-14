@@ -42,20 +42,14 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
             VueloDto result = null;
             try
             {
-                Vuelo objVuelo = await vueloRepository.FindByIdAsync(request.IdVuelo);
-
-                result = new VueloDto()
-                {
-                    IdVuelo = objVuelo.Id,
-                };
+                var objVuelo = await vueloRepository.FindByIdDestinoVueloAsync(request.IdVuelo);
                 
                 foreach (var itinerarioVuelo in request.ListaItinerarios)
                 {
                     objVuelo.AgregarItinerarioVuelo(itinerarioVuelo.IdTripulacion, itinerarioVuelo.IdAeronave, itinerarioVuelo.ZonaAbordaje, itinerarioVuelo.NroPuertaAbordaje, itinerarioVuelo.FechaHoraAbordaje, itinerarioVuelo.FechaHoraPartida);
                 }
 
-                objVuelo.ConsolidarVuelo();
-
+                //objVuelo.ConsolidarVuelo();
                 await vueloRepository.CreateAsync(objVuelo);
 
                 await unitOfWork.Commit();

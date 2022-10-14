@@ -43,7 +43,7 @@ namespace Vuelos.Domain.Model.Vuelos
         public void AgregarItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
         {
             var itinerarioVuelo = _listaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == idTripulacion && x.IdAeronave == idAeronave && x.FechaHoraPartida == fechaHoraPartida);
-            if (itinerarioVuelo is null)
+            if (itinerarioVuelo == null)
             {
                 itinerarioVuelo = new ItinerarioVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
                 _listaItinerariosVuelo.Add(itinerarioVuelo);
@@ -55,7 +55,7 @@ namespace Vuelos.Domain.Model.Vuelos
             AddDomainEvent(new VueloAsignado(Id, itinerarioVuelo.Id, idTripulacion, idAeronave));
         }
 
-        public void ConsolidarVuelo()
+        public void ConsolidarDestinoVuelo()
         {
             var evento = new DestinoVueloCreado(Id, IdAeropuertoOrigen, IdAeropuertoDestino);
             AddDomainEvent(evento);

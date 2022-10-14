@@ -13,12 +13,12 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
         public Guid IdVuelo { get; set; }
         public List<ItinerarioVueloDto> ListaItinerarios { get; set; }
 
-        private AsignarVueloCommand() { }
+        public AsignarVueloCommand() { }
 
-        public AsignarVueloCommand(VueloDto vuelo)
+        public AsignarVueloCommand(Guid idVuelo, List<ItinerarioVueloDto> listaItinerarios)
         {
-            IdVuelo = vuelo.IdVuelo; //new Guid("6B49D9BE-56CE-4BDC-B41B-B58970740A3B");
-            ListaItinerarios = (List<ItinerarioVueloDto>)vuelo.ListaItinerario;
+            IdVuelo = idVuelo;
+            ListaItinerarios = listaItinerarios;
         }
     }
 }

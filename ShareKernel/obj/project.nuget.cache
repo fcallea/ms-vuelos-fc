@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DeMlEM/DOTasr/fUjyK6Rdj/YJjgl6wNUPtduL3+9/8NwQs4jCQ0tcp5mf7p2l/YqulsWZsY0JqEqDAGgghGzA==",
+  "dgSpecHash": "OzEP4WgG3U5JwgUs6MrzHYHoKEM2SjSWfzg8dwP+wJJmV1auHc3OYTiWnfVmh/ZIME75d5mS9es2X6fy2e6CTg==",
   "success": true,
-  "projectFilePath": "D:\\VUELOS\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
+  "projectFilePath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

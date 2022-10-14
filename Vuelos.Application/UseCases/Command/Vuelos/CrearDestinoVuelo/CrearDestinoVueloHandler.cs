@@ -47,6 +47,8 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo
                 millasVuelo = await vueloService.CalcularMillasVueloAsync(reqIdAeropuertoOrigen, reqIdAeropuertoDestino);
 
                 vuelo = vueloFactory.CrearDestinoVuelo(reqIdAeropuertoOrigen, reqIdAeropuertoDestino, nroVuelo, millasVuelo);
+
+                vuelo.ConsolidarDestinoVuelo();
                 await vueloRepository.CreateAsync(vuelo);
             }
 
