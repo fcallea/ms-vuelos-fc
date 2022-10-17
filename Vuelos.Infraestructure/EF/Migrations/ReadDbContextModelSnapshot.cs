@@ -73,7 +73,7 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("FechaHoraPartida")
-                        .HasColumnType("datetime")
+                        .HasColumnType("DateTime")
                         .HasColumnName("FechaHoraPartida");
 
                     b.Property<Guid>("IdAeronave")

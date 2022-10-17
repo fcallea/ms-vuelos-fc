@@ -50,7 +50,7 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     ZonaAbordaje = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     NroPuertaAbordaje = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     FechaHoraAbordaje = table.Column<DateTime>(type: "DateTime", nullable: false),
-                    FechaHoraPartida = table.Column<DateTime>(type: "datetime", nullable: false),
+                    FechaHoraPartida = table.Column<DateTime>(type: "DateTime", nullable: false),
                     FechaHoraLLegada = table.Column<DateTime>(type: "datetime2", nullable: false),
                     NroAsientosHabilitados = table.Column<int>(type: "int", nullable: false),
                     TipoVuelo = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),

@@ -10,7 +10,7 @@ using Vuelos.Infraestructure.EF.Contexts;
 namespace Vuelos.Infraestructure.EF.Migrations
 {
     [DbContext(typeof(ReadDbContext))]
-    [Migration("20221016152655_InitialStructure")]
+    [Migration("20221017132123_InitialStructure")]
     partial class InitialStructure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -75,7 +75,7 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("FechaHoraPartida")
-                        .HasColumnType("datetime")
+                        .HasColumnType("DateTime")
                         .HasColumnName("FechaHoraPartida");
 
                     b.Property<Guid>("IdAeronave")

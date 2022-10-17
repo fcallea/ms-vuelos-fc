@@ -9,13 +9,13 @@ namespace Vuelos.Domain.Event
 {
     public record VueloAsignado : DomainEvent
     {
-        public Guid IdItinerarioVuelo { get; }
+        public Guid IdVuelo { get; }
         public Guid IdTripulacion { get; }
         public Guid IdAeronave { get; }
 
-        public VueloAsignado(Guid idItinerarioVuelo, Guid idTripulacion, Guid idAeronave) : base(DateTime.Now)
+        public VueloAsignado(Guid idVuelo, Guid idTripulacion, Guid idAeronave) : base(DateTime.Now)
         {
-            IdItinerarioVuelo = idItinerarioVuelo;
+            IdVuelo = idVuelo;
             IdTripulacion = idTripulacion;
             IdAeronave = idAeronave;
         }

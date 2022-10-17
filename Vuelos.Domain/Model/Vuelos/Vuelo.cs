@@ -56,7 +56,7 @@ namespace Vuelos.Domain.Model.Vuelos
                 esNuevo = false;
                 itinerario.ModificarVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
             }
-            //AddDomainEvent(new VueloAsignado(itinerarioVuelo.Id, idTripulacion, idAeronave));
+            AddDomainEvent(new VueloAsignado(itinerario.Id, idTripulacion, idAeronave));
             return itinerario;
         }
 
