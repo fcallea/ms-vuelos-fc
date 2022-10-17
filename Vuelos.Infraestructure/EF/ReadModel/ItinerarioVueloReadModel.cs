@@ -20,7 +20,6 @@ namespace Vuelos.Infraestructure.EF.ReadModel
         public int NroAsientosHabilitados { get; set; }
         public string TipoVuelo { get; set; }
         public string EstadoItinerarioVuelo { get; set; }
-        public Guid IdVuelo { get; set; }
         public VueloReadModel Vuelo { get; set; }
     }
 }

@@ -39,28 +39,28 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
 
         public async Task<Guid> Handle(AsignarVueloCommand request, CancellationToken cancellationToken)
         {
-            VueloDto result = null;
-            try
+            var objVuelo = await vueloRepository.FindByIdVueloAsync(request.IdVuelo);           
+            foreach (var itinerario in request.ListaItinerarios)
             {
-                var objVuelo = await vueloRepository.FindByIdDestinoVueloAsync(request.IdVuelo);
-                
-                foreach (var itinerarioVuelo in request.ListaItinerarios)
+                bool esNuevo = false;
+                var objItinerario = objVuelo.AgregarItinerarioVuelo(itinerario.IdTripulacion, itinerario.IdAeronave, itinerario.FechaHoraPartida, itinerario.ZonaAbordaje, itinerario.NroPuertaAbordaje, itinerario.FechaHoraAbordaje, out esNuevo);
+                //await vueloRepository.UpdateItinerarioAsync(objItinerario);
+                var itinerarioBD = objVuelo.ListaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == itinerario.IdTripulacion && x.IdAeronave == itinerario.IdAeronave);
+                if (esNuevo)
                 {
-                    objVuelo.AgregarItinerarioVuelo(itinerarioVuelo.IdTripulacion, itinerarioVuelo.IdAeronave, itinerarioVuelo.ZonaAbordaje, itinerarioVuelo.NroPuertaAbordaje, itinerarioVuelo.FechaHoraAbordaje, itinerarioVuelo.FechaHoraPartida);
+                    await vueloRepository.SaveItinerarioAsync(objItinerario);
                 }
-
-                //objVuelo.ConsolidarVuelo();
-                await vueloRepository.CreateAsync(objVuelo);
-
-                await unitOfWork.Commit();
-
-                return objVuelo.Id;
+                else
+                {
+                    await vueloRepository.UpdateItinerarioAsync(objItinerario);
+                }
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al obtener destinoVuelo con id: { VueloId }", request.IdVuelo);
-            }
-            return result.IdVuelo;
+            //await vueloRepository.CreateAsync(objVuelo);
+            //await vueloRepository.UpdateAsync(objVuelo);
+
+            await unitOfWork.Commit();
+
+            return objVuelo.Id;
         }
     }
 }

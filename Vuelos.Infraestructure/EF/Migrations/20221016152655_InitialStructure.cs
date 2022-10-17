@@ -55,7 +55,6 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     NroAsientosHabilitados = table.Column<int>(type: "int", nullable: false),
                     TipoVuelo = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     EstadoItinerarioVuelo = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
-                    IdVuelo = table.Column<Guid>(type: "uniqueidentifier", maxLength: 40, nullable: false),
                     VueloId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>

@@ -84,11 +84,6 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("IdTripulacion");
 
-                    b.Property<Guid>("IdVuelo")
-                        .HasMaxLength(40)
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnName("IdVuelo");
-
                     b.Property<int>("NroAsientosHabilitados")
                         .HasColumnType("int")
                         .HasColumnName("NroAsientosHabilitados");

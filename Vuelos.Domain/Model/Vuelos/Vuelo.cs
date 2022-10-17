@@ -18,6 +18,7 @@ namespace Vuelos.Domain.Model.Vuelos
         public decimal MillasVuelo { get; private set; }
 
         private readonly ICollection<ItinerarioVuelo> _listaItinerariosVuelo;
+        //public ICollection<ItinerarioVuelo> _listaItinerariosVuelo;
 
         public IReadOnlyCollection<ItinerarioVuelo> ListaItinerariosVuelo
         {
@@ -40,19 +41,28 @@ namespace Vuelos.Domain.Model.Vuelos
             _listaItinerariosVuelo = new List<ItinerarioVuelo>();
         }
 
-        public void AgregarItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
+        public ItinerarioVuelo AgregarItinerarioVuelo(Guid idTripulacion, Guid idAeronave, DateTime fechaHoraPartida, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, out bool esNuevo)
         {
-            var itinerarioVuelo = _listaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == idTripulacion && x.IdAeronave == idAeronave && x.FechaHoraPartida == fechaHoraPartida);
-            if (itinerarioVuelo == null)
+            esNuevo = false;
+            var itinerario = _listaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == idTripulacion && x.IdAeronave == idAeronave);
+            if (itinerario is null)
             {
-                itinerarioVuelo = new ItinerarioVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
-                _listaItinerariosVuelo.Add(itinerarioVuelo);
+                esNuevo = true;
+                itinerario = new ItinerarioVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
+                _listaItinerariosVuelo.Add(itinerario);
             }
             else
             {
-                itinerarioVuelo.ModificarVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
+                esNuevo = false;
+                itinerario.ModificarVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
             }
-            AddDomainEvent(new VueloAsignado(Id, itinerarioVuelo.Id, idTripulacion, idAeronave));
+            //AddDomainEvent(new VueloAsignado(itinerarioVuelo.Id, idTripulacion, idAeronave));
+            return itinerario;
+        }
+
+        public void CambiarEstado(string estado)
+        {
+            EstadoVuelo = estado;
         }
 
         public void ConsolidarDestinoVuelo()

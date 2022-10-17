@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Vuelos.Domain.Event;
 
 namespace Vuelos.Domain.Model.Vuelos
 {
@@ -23,7 +24,8 @@ namespace Vuelos.Domain.Model.Vuelos
 
         private ItinerarioVuelo() { }
 
-        internal ItinerarioVuelo (Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
+        //internal ItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
+        public ItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
         {
             Id = Guid.NewGuid();
             IdTripulacion = idTripulacion;
@@ -33,8 +35,9 @@ namespace Vuelos.Domain.Model.Vuelos
             NroPuertaAbordaje = nroPuertaAbordaje;
             FechaHoraAbordaje = fechaHoraAbordaje;
             FechaHoraPartida = fechaHoraPartida;
+            FechaHoraLLegada = DateTime.Now;
             TipoVuelo = "ESTANDAR";
-            EstadoItinerarioVuelo = "";
+            EstadoItinerarioVuelo = "ACTIVO";
         }
 
         internal void ModificarVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
@@ -45,6 +48,13 @@ namespace Vuelos.Domain.Model.Vuelos
             NroPuertaAbordaje = nroPuertaAbordaje;
             FechaHoraAbordaje = fechaHoraAbordaje;
             FechaHoraPartida = fechaHoraPartida;
+            FechaHoraLLegada = DateTime.Now;
+        }
+
+        public void ConsolidarVueloAsignado()
+        {
+            var evento = new VueloAsignado(Id, IdTripulacion, IdAeronave);
+            AddDomainEvent(evento);
         }
     }
 }

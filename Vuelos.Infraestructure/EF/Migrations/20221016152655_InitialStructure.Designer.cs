@@ -10,7 +10,7 @@ using Vuelos.Infraestructure.EF.Contexts;
 namespace Vuelos.Infraestructure.EF.Migrations
 {
     [DbContext(typeof(ReadDbContext))]
-    [Migration("20221013030108_InitialStructure")]
+    [Migration("20221016152655_InitialStructure")]
     partial class InitialStructure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -85,11 +85,6 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     b.Property<Guid>("IdTripulacion")
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("IdTripulacion");
-
-                    b.Property<Guid>("IdVuelo")
-                        .HasMaxLength(40)
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnName("IdVuelo");
 
                     b.Property<int>("NroAsientosHabilitados")
                         .HasColumnType("int")

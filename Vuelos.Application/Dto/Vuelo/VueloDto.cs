@@ -8,7 +8,7 @@ namespace Vuelos.Application.Dto.Vuelo
 {
     public class VueloDto
     {
-        public Guid IdVuelo { get; set; }
+        public Guid Id { get; set; }
         public ICollection<ItinerarioVueloDto> ListaItinerario { get; set; }        
     }
 }
