@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace Vuelos.Application.UseCases.ManejadorRabbit
 {
-    class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueuePrueba>
+    class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueue>
     {
-        public Task Handle(AeronaveAgregadaEventoQueuePrueba evento)
+        public Task Handle(AeronaveAgregadaEventoQueue evento)
         {
             var url = "https://localhost:44365/api/Vuelo/RegistrarAeronave";
             //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeronave";

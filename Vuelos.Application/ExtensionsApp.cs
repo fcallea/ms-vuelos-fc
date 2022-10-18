@@ -24,7 +24,7 @@ namespace Vuelos.Application
             eventBus1.Subscribe<TripulacionEventoQueue, TripulacionCreadaEventoManejador>();
             var eventBus2 = app.ApplicationServices.GetRequiredService<IRabbitEventBus>();
             //eventBus2.Subscribe<AeronaveAgregadaEventoQueue, AeronaveAgregadaEventoManejador>();
-            eventBus2.Subscribe<AeronaveAgregadaEventoQueuePrueba, AeronaveAgregadaEventoManejador>();
+            eventBus2.Subscribe<AeronaveAgregadaEventoQueue, AeronaveAgregadaEventoManejador>();
             var eventBus3 = app.ApplicationServices.GetRequiredService<IRabbitEventBus>();
             eventBus3.Subscribe<AeropuertoCreadoQueue, AeropuertoCreadoEventoManejador>();
 

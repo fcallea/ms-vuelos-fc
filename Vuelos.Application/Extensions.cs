@@ -46,7 +46,7 @@ namespace Vuelos.Application
             ///Para el CONSUMIDOR (Subscriber), implementacion de evento manejador
             ///<Sumary>
             services.AddTransient<IEventoManejador<TripulacionEventoQueue>, TripulacionCreadaEventoManejador>();
-            services.AddTransient<IEventoManejador<AeronaveAgregadaEventoQueuePrueba>, AeronaveAgregadaEventoManejador>();
+            services.AddTransient<IEventoManejador<AeronaveAgregadaEventoQueue>, AeronaveAgregadaEventoManejador>();
             services.AddTransient<IEventoManejador<AeropuertoCreadoQueue>, AeropuertoCreadoEventoManejador>();
 
         }
