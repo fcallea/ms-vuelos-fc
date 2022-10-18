@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Shared.Rabbitmq.BusRabbit;
+using Shared.Rabbitmq.EventoQueue;
 using Shared.Rabbitmq.Implement;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Vuelos.Application.Services;
+using Vuelos.Application.UseCases.ManejadorRabbit;
 using Vuelos.Domain.Factories;
 
 namespace Vuelos.Application
@@ -41,7 +43,9 @@ namespace Vuelos.Application
             ///Se agrega el eventomanejador de RabbitMQ.
             ///Para el CONSUMIDOR (Subscriber), implementacion de evento manejador
             ///<Sumary>
-            //services.AddTransient<IEventoManejador<VueloAsignadoAeronaveQueue>, AeronaveEventoManejador>();
+            services.AddTransient<IEventoManejador<TripulacionEventoQueue>, TripulacionCreadaEventoManejador>();
+            services.AddTransient<IEventoManejador<AeronaveAgregadaEventoQueuePrueba>, AeronaveAgregadaEventoManejador>();
+            services.AddTransient<IEventoManejador<AeropuertoCreadoQueue>, AeropuertoCreadoEventoManejador>();
 
         }
     }

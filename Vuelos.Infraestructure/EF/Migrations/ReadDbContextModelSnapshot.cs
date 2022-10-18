@@ -19,6 +19,26 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeronaveReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("EstadoAeronave")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("EstadoAeronave");
+
+                    b.Property<int>("NroAsientos")
+                        .HasColumnType("int")
+                        .HasColumnName("NroAsientos");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Aeronave");
+                });
+
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeropuertoReadModel", b =>
                 {
                     b.Property<Guid>("Id")
@@ -111,6 +131,22 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     b.HasIndex("VueloId");
 
                     b.ToTable("ItinerarioVuelo");
+                });
+
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.TripulacionReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("EstadoTripulacion")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("EstadoTripulacion");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tripulacion");
                 });
 
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.VueloReadModel", b =>

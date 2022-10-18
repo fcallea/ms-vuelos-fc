@@ -10,7 +10,7 @@ using Vuelos.Infraestructure.EF.Contexts;
 namespace Vuelos.Infraestructure.EF.Migrations
 {
     [DbContext(typeof(ReadDbContext))]
-    [Migration("20221017132123_InitialStructure")]
+    [Migration("20221018032155_InitialStructure")]
     partial class InitialStructure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,6 +20,26 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeronaveReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("EstadoAeronave")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("EstadoAeronave");
+
+                    b.Property<int>("NroAsientos")
+                        .HasColumnType("int")
+                        .HasColumnName("NroAsientos");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Aeronave");
+                });
 
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeropuertoReadModel", b =>
                 {
@@ -113,6 +133,22 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     b.HasIndex("VueloId");
 
                     b.ToTable("ItinerarioVuelo");
+                });
+
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.TripulacionReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("EstadoTripulacion")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("EstadoTripulacion");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tripulacion");
                 });
 
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.VueloReadModel", b =>

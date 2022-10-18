@@ -15,8 +15,9 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
     {
         public Task Handle(AeropuertoCreadoQueue evento)
         {
-            //var url = "https://localhost:44320/api/Vuelo/GuardarAeropuerto";
-            var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeropuerto";
+            /*
+            var url = "https://localhost:44320/api/Vuelo/GuardarAeropuerto";
+            //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeropuerto";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";
@@ -33,7 +34,7 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
 
             // Invocación del servicio y respuesta con las facturas generadas
             var response = request.GetResponse();
-
+            */
 
             return Task.CompletedTask;
         }

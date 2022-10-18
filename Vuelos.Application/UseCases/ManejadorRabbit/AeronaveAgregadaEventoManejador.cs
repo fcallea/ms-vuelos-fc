@@ -11,12 +11,13 @@ using System.Threading.Tasks;
 
 namespace Vuelos.Application.UseCases.ManejadorRabbit
 {
-    class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueue>
+    class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueuePrueba>
     {
-        public Task Handle(AeronaveAgregadaEventoQueue evento)
+        public Task Handle(AeronaveAgregadaEventoQueuePrueba evento)
         {
-            //var url = "https://localhost:44320/api/Vuelo/GuardarAeronave";
-            var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeronave";
+            /*
+            var url = "https://localhost:44320/api/Vuelo/GuardarAeronave";
+            //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeronave";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";
@@ -33,7 +34,7 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
 
             // Invocación del servicio y respuesta con las facturas generadas
             var response = request.GetResponse();
-
+            */
 
             return Task.CompletedTask;
         }

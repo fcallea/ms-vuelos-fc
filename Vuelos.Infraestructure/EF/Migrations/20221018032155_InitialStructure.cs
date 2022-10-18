@@ -8,6 +8,19 @@ namespace Vuelos.Infraestructure.EF.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Aeronave",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    NroAsientos = table.Column<int>(type: "int", nullable: false),
+                    EstadoAeronave = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Aeronave", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Aeropuerto",
                 columns: table => new
                 {
@@ -21,6 +34,18 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Aeropuerto", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Tripulacion",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    EstadoTripulacion = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Tripulacion", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -77,10 +102,16 @@ namespace Vuelos.Infraestructure.EF.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Aeronave");
+
+            migrationBuilder.DropTable(
                 name: "Aeropuerto");
 
             migrationBuilder.DropTable(
                 name: "ItinerarioVuelo");
+
+            migrationBuilder.DropTable(
+                name: "Tripulacion");
 
             migrationBuilder.DropTable(
                 name: "Vuelo");
