@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Vuelos.Application;
 using Vuelos.Infraestructure;
 
 namespace Vuelos.WebApi
@@ -58,6 +59,12 @@ namespace Vuelos.WebApi
             {
                 endpoints.MapControllers();
             });
+
+
+            ///<Sumary>
+            ///Se invoca al Consumer de RabbitMQ cliente            
+            ///<Sumary>
+            app.RabbitMQConsumer();
         }
     }
 }

@@ -24,17 +24,13 @@ namespace Vuelos.Infraestructure
 
             var connectionString = configuration.GetConnectionString("ConexionDB");
 
-            services.AddDbContext<ReadDbContext>(context =>
-                context.UseSqlServer(connectionString));
-            services.AddDbContext<WriteDbContext>(context =>
-                context.UseSqlServer(connectionString));
-
+            services.AddDbContext<ReadDbContext>(context => context.UseSqlServer(connectionString));
+            services.AddDbContext<WriteDbContext>(context => context.UseSqlServer(connectionString));
 
             services.AddScoped<IVueloRepository, VueloRepository>();
             services.AddScoped<IAeropuertoRepository, AeropuertoRepository>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-
 
             return services;
         }

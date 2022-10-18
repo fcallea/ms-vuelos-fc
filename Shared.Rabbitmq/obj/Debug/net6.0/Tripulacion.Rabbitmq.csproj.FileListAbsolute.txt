@@ -1,0 +1,12 @@
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\bin\Debug\net6.0\Tripulacion.Rabbitmq.deps.json
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\bin\Debug\net6.0\Tripulacion.Rabbitmq.dll
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\bin\Debug\net6.0\Tripulacion.Rabbitmq.pdb
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.csproj.AssemblyReference.cache
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.AssemblyInfoInputs.cache
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.AssemblyInfo.cs
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.csproj.CoreCompileInputs.cache
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.dll
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\refint\Tripulacion.Rabbitmq.dll
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\Tripulacion.Rabbitmq.pdb
+C:\Users\rcerruto\source\repos\Tripulacion\Tripulacion.Rabbitmq\obj\Debug\net6.0\ref\Tripulacion.Rabbitmq.dll

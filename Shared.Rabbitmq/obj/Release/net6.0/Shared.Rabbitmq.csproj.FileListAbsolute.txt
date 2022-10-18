@@ -1,0 +1,12 @@
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\bin\Release\net6.0\Shared.Rabbitmq.deps.json
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\bin\Release\net6.0\Shared.Rabbitmq.dll
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\bin\Release\net6.0\Shared.Rabbitmq.pdb
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.csproj.AssemblyReference.cache
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.GeneratedMSBuildEditorConfig.editorconfig
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.AssemblyInfoInputs.cache
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.AssemblyInfo.cs
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.csproj.CoreCompileInputs.cache
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.dll
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\refint\Shared.Rabbitmq.dll
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\Shared.Rabbitmq.pdb
+F:\z_diploCod\pry\MS_Aeronave_JY\Aeronave 1\Aeronave\Shared.Rabbitmq\obj\Release\net6.0\ref\Shared.Rabbitmq.dll
