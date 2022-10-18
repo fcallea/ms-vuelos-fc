@@ -15,8 +15,7 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
     {
         public Task Handle(TripulacionEventoQueue evento)
         {
-            /*
-            var url = "https://localhost:44320/api/Vuelo/GuardarTripulacion";
+            var url = "https://localhost:44365/api/Vuelo/RegistrarTripulacion";
             //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarTripulacion";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
@@ -34,7 +33,6 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
 
             // Invocación del servicio y respuesta con las facturas generadas
             var response = request.GetResponse();
-            */
 
             return Task.CompletedTask;
         }

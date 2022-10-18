@@ -29,6 +29,8 @@ namespace Vuelos.Infraestructure
 
             services.AddScoped<IVueloRepository, VueloRepository>();
             services.AddScoped<IAeropuertoRepository, AeropuertoRepository>();
+            services.AddScoped<IAeronaveRepository, AeronaveRepository>();
+            services.AddScoped<ITripulacionRepository, TripulacionRepository>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

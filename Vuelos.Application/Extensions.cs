@@ -24,6 +24,8 @@ namespace Vuelos.Application
             services.AddTransient<IVueloFactory, VueloFactory>();
 
             services.AddTransient<IAeropuertoFactory, AeropuertoFactory>();
+            services.AddTransient<IAeronaveFactory, AeronaveFactory>();
+            services.AddTransient<ITripulacionFactory, TripulacionFactory>();
 
             AddRabbitMq(services);
 
