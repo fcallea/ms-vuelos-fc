@@ -90,6 +90,9 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.CrearDestinoVuelo
             Assert.NotNull(listaitinerarios);
 
             VueloAsignado vasig = new VueloAsignado(auxIdVuelo, idTripulacion, idAeronave);
+            Assert.NotNull((object)vasig.IdVuelo);
+            Assert.NotNull((object)vasig.IdTripulacion);
+            Assert.NotNull((object)vasig.IdAeronave);
             Assert.Equal(vasig.IdVuelo, auxIdVuelo);
             Assert.Equal(vasig.IdTripulacion, idTripulacion);
             Assert.Equal(vasig.IdAeronave, idAeronave);

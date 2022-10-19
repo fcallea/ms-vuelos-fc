@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.2144" branch-rate="0.052000000000000005" version="1.9" timestamp="1666155379" lines-covered="145" lines-valid="676" branches-covered="5" branches-valid="96">
+<coverage line-rate="0.23399999999999999" branch-rate="0.052000000000000005" version="1.9" timestamp="1666160670" lines-covered="158" lines-valid="675" branches-covered="5" branches-valid="96">
   <sources>
     <source>D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\</source>
   </sources>
   <packages>
-    <package name="Vuelos.Application" line-rate="0.10830000000000001" branch-rate="0.0256" complexity="137">
+    <package name="Vuelos.Application" line-rate="0.1244" branch-rate="0.0256" complexity="136">
       <classes>
         <class name="Vuelos.Application.Extensions" filename="Vuelos.Application\Extensions.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -442,42 +442,42 @@
             <line number="24" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloCommand" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloCommand.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloCommand" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloCommand.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_IdVuelo" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_ListaItinerarios" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ListaItinerarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="14" hits="3" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
+                <line number="16" hits="3" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.Guid,System.Collections.Generic.List`1&lt;Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto&gt;)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(System.Guid,System.Collections.Generic.List`1&lt;Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloHandler" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloHandler.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -1562,64 +1562,58 @@
             <line number="17" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto" filename="Vuelos.Application\Dto\Vuelo\ItinerarioVueloDto.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto" filename="Vuelos.Application\Dto\Vuelo\ItinerarioVueloDto.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_IdTripulacion" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="2" branch="False" />
+                <line number="11" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_IdAeronave" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="2" branch="False" />
+                <line number="12" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_ZonaAbordaje" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="2" branch="False" />
+                <line number="13" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_NroPuertaAbordaje" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="2" branch="False" />
+                <line number="14" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_FechaHoraAbordaje" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="1" branch="False" />
+                <line number="15" hits="10" branch="False" />
               </lines>
             </method>
             <method name="get_FechaHoraPartida" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="1" branch="False" />
+                <line number="16" hits="10" branch="False" />
               </lines>
             </method>
             <method name="get_FechaHoraLLegada" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="1" branch="False" />
+                <line number="17" hits="10" branch="False" />
               </lines>
             </method>
             <method name="get_TipoVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_EsNuevo" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="19" hits="2" branch="False" />
+                <line number="18" hits="11" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="2" branch="False" />
-            <line number="12" hits="2" branch="False" />
-            <line number="13" hits="2" branch="False" />
-            <line number="14" hits="2" branch="False" />
-            <line number="15" hits="1" branch="False" />
-            <line number="16" hits="1" branch="False" />
-            <line number="17" hits="1" branch="False" />
-            <line number="18" hits="2" branch="False" />
-            <line number="19" hits="2" branch="False" />
+            <line number="11" hits="11" branch="False" />
+            <line number="12" hits="11" branch="False" />
+            <line number="13" hits="11" branch="False" />
+            <line number="14" hits="11" branch="False" />
+            <line number="15" hits="10" branch="False" />
+            <line number="16" hits="10" branch="False" />
+            <line number="17" hits="10" branch="False" />
+            <line number="18" hits="11" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.Dto.Vuelo.VueloDto" filename="Vuelos.Application\Dto\Vuelo\VueloDto.cs" line-rate="0" branch-rate="1" complexity="2">
@@ -1642,7 +1636,7 @@
         </class>
       </classes>
     </package>
-    <package name="Vuelos.Domain" line-rate="0.6381" branch-rate="0.75" complexity="57">
+    <package name="Vuelos.Domain" line-rate="0.6776000000000001" branch-rate="0.75" complexity="57">
       <classes>
         <class name="Vuelos.Domain.Model.Vuelos.ItinerarioVuelo" filename="Vuelos.Domain\Model\Vuelos\ItinerarioVuelo.cs" line-rate="1" branch-rate="1" complexity="15">
           <methods>
@@ -1796,27 +1790,27 @@
           <methods>
             <method name="get_IdAeropuertoOrigen" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="3" branch="False" />
+                <line number="15" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_IdAeropuertoDestino" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="3" branch="False" />
+                <line number="16" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_NroVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="2" branch="False" />
+                <line number="17" hits="5" branch="False" />
               </lines>
             </method>
             <method name="get_EstadoVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="3" branch="False" />
+                <line number="18" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_MillasVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="2" branch="False" />
+                <line number="19" hits="5" branch="False" />
               </lines>
             </method>
             <method name="get_ListaItinerariosVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1871,25 +1865,25 @@
             </method>
             <method name=".ctor" signature="(System.Guid,System.Guid,System.Int32,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="35" hits="2" branch="False" />
-                <line number="36" hits="2" branch="False" />
-                <line number="37" hits="2" branch="False" />
-                <line number="38" hits="2" branch="False" />
-                <line number="39" hits="2" branch="False" />
-                <line number="40" hits="2" branch="False" />
-                <line number="41" hits="2" branch="False" />
-                <line number="42" hits="2" branch="False" />
-                <line number="43" hits="2" branch="False" />
-                <line number="44" hits="2" branch="False" />
+                <line number="35" hits="5" branch="False" />
+                <line number="36" hits="5" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="5" branch="False" />
+                <line number="39" hits="5" branch="False" />
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+                <line number="42" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+                <line number="44" hits="5" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="3" branch="False" />
-            <line number="16" hits="3" branch="False" />
-            <line number="17" hits="2" branch="False" />
-            <line number="18" hits="3" branch="False" />
-            <line number="19" hits="2" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="5" branch="False" />
             <line number="27" hits="1" branch="False" />
             <line number="28" hits="1" branch="False" />
             <line number="29" hits="1" branch="False" />
@@ -1924,16 +1918,16 @@
             <line number="72" hits="1" branch="False" />
             <line number="73" hits="1" branch="False" />
             <line number="74" hits="1" branch="False" />
-            <line number="35" hits="2" branch="False" />
-            <line number="36" hits="2" branch="False" />
-            <line number="37" hits="2" branch="False" />
-            <line number="38" hits="2" branch="False" />
-            <line number="39" hits="2" branch="False" />
-            <line number="40" hits="2" branch="False" />
-            <line number="41" hits="2" branch="False" />
-            <line number="42" hits="2" branch="False" />
-            <line number="43" hits="2" branch="False" />
-            <line number="44" hits="2" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="36" hits="5" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="42" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+            <line number="44" hits="5" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Domain.Model.Tripulaciones.Tripulacion" filename="Vuelos.Domain\Model\Tripulaciones\Tripulacion.cs" line-rate="0" branch-rate="1" complexity="3">
@@ -2132,20 +2126,20 @@
             <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Domain.Factories.VueloFactory" filename="Vuelos.Domain\Factories\VueloFactory.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Vuelos.Domain.Factories.VueloFactory" filename="Vuelos.Domain\Factories\VueloFactory.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="CrearDestinoVuelo" signature="(System.Guid,System.Guid,System.Int32,System.Decimal)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="CrearDestinoVuelo" signature="(System.Guid,System.Guid,System.Int32,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Domain.Event.AeropuertoRegistrado" filename="Vuelos.Domain\Event\AeropuertoRegistrado.cs" line-rate="0" branch-rate="1" complexity="2">
@@ -2212,21 +2206,21 @@
             <line number="21" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Domain.Event.VueloAsignado" filename="Vuelos.Domain\Event\VueloAsignado.cs" line-rate="0.6666" branch-rate="1" complexity="4">
+        <class name="Vuelos.Domain.Event.VueloAsignado" filename="Vuelos.Domain\Event\VueloAsignado.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_IdVuelo" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdVuelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="False" />
+                <line number="12" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_IdTripulacion" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdTripulacion" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_IdAeronave" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdAeronave" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="14" hits="2" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Guid,System.Guid,System.Guid)" line-rate="1" branch-rate="1" complexity="1">
@@ -2241,9 +2235,9 @@
             </method>
           </methods>
           <lines>
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
             <line number="16" hits="4" branch="False" />
             <line number="17" hits="4" branch="False" />
             <line number="18" hits="4" branch="False" />

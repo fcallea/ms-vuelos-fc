@@ -3,37 +3,50 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Vuelos.Application.Dto.Vuelo;
 
 namespace Vuelos.Test.Application {
     public class MockFactory {
-        /*
-        public static List<DetallePedidoDto> GetDetallePedido()
+
+        public static List<ItinerarioVueloDto> GetListaItinerarios()
         {
-            return new List<DetallePedidoDto>()
+            return new List<ItinerarioVueloDto>()
             {
                 new()
                 {
-                    Cantidad = 1,
-                    Instrucciones = "Instrucciones Prod 1",
-                    Precio = 10,
-                    ProductoId = Guid.NewGuid()
+                    IdTripulacion = Guid.NewGuid(),
+                    IdAeronave = Guid.NewGuid(),
+                    ZonaAbordaje = "A",
+                    NroPuertaAbordaje = "01",
+                    FechaHoraAbordaje = DateTime.Now,
+                    FechaHoraPartida = DateTime.Now,
+                    FechaHoraLLegada = DateTime.Now,
+                    TipoVuelo = "COMERCIAL"
+
                 },
                 new()
                 {
-                    Cantidad = 2,
-                    Instrucciones = "Instrucciones Prod 2",
-                    Precio = 20,
-                    ProductoId = Guid.NewGuid()
+                    IdTripulacion = Guid.NewGuid(),
+                    IdAeronave = Guid.NewGuid(),
+                    ZonaAbordaje = "A",
+                    NroPuertaAbordaje = "01",
+                    FechaHoraAbordaje = DateTime.Now,
+                    FechaHoraPartida = DateTime.Now,
+                    FechaHoraLLegada = DateTime.Now,
+                    TipoVuelo = "COMERCIAL"
                 },
                 new()
                 {
-                    Cantidad = 3,
-                    Instrucciones = "Instrucciones Prod 3",
-                    Precio = 30,
-                    ProductoId = Guid.NewGuid()
+                    IdTripulacion = Guid.NewGuid(),
+                    IdAeronave = Guid.NewGuid(),
+                    ZonaAbordaje = "A",
+                    NroPuertaAbordaje = "01",
+                    FechaHoraAbordaje = DateTime.Now,
+                    FechaHoraPartida = DateTime.Now,
+                    FechaHoraLLegada = DateTime.Now,
+                    TipoVuelo = "COMERCIAL"
                 }
             };
         }
-        */
     }
 }

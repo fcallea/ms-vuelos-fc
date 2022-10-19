@@ -16,6 +16,5 @@ namespace Vuelos.Application.Dto.Vuelo
         public DateTime FechaHoraPartida { get; set; }
         public DateTime FechaHoraLLegada { get; set; }
         public string TipoVuelo { get; set; }
-        public string EsNuevo { get; set; }
     }
 }
