@@ -79,3 +79,4 @@ D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.Co
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
