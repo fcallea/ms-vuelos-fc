@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2022-10-19_00-49-46" tag="">
+  <assembly name="Vuelos.Application">
+    <class name="Vuelos.Application.Dto.Vuelo.DestinoVueloDto" coveredlines="0" coverablelines="7" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="7" />
+    <class name="Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto" coveredlines="9" coverablelines="9" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="9" totalcodeelements="9" />
+    <class name="Vuelos.Application.Dto.Vuelo.VueloDto" coveredlines="0" coverablelines="2" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.Extensions" coveredlines="0" coverablelines="16" totallines="54" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.ExtensionsApp" coveredlines="0" coverablelines="9" totallines="34" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Application.Services.VueloService" coveredlines="0" coverablelines="122" totallines="156" coveredbranches="0" totalbranches="64" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave.RegistrarAeronaveCommand" coveredlines="0" coverablelines="12" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave.RegistrarAeronaveHandler" coveredlines="0" coverablelines="23" totallines="47" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Command.Aeropuertos.RegistrarAeropuerto.RegistrarAeropuertoCommand" coveredlines="0" coverablelines="18" totallines="32" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="8" />
+    <class name="Vuelos.Application.UseCases.Command.Aeropuertos.RegistrarAeropuerto.RegistrarAeropuertoHandler" coveredlines="0" coverablelines="26" totallines="50" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion.RegistrarTripulacionCommand" coveredlines="0" coverablelines="10" totallines="24" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion.RegistrarTripulacionHandler" coveredlines="0" coverablelines="22" totallines="46" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloCommand" coveredlines="0" coverablelines="8" totallines="24" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloHandler" coveredlines="0" coverablelines="37" totallines="74" coveredbranches="0" totalbranches="6" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo.CrearDestinoVueloCommand" coveredlines="10" coverablelines="10" totallines="27" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo.CrearDestinoVueloHandler" coveredlines="29" coverablelines="29" totallines="60" coveredbranches="2" totalbranches="2" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeronaveAgregadaEventoManejador" coveredlines="0" coverablelines="16" totallines="40" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeropuertoCreadoEventoManejador" coveredlines="0" coverablelines="16" totallines="40" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Application.UseCases.ManejadorRabbit.TripulacionCreadaEventoManejador" coveredlines="0" coverablelines="16" totallines="40" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdHandler" coveredlines="0" coverablelines="29" totallines="69" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdQuery" coveredlines="0" coverablelines="6" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+  </assembly>
+  <assembly name="Vuelos.Domain">
+    <class name="Vuelos.Domain.Event.AeropuertoRegistrado" coveredlines="0" coverablelines="5" totallines="19" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.Domain.Event.DestinoVueloCreado" coveredlines="9" coverablelines="9" totallines="23" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Vuelos.Domain.Event.VueloAsignado" coveredlines="6" coverablelines="9" totallines="23" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="4" />
+    <class name="Vuelos.Domain.Factories.AeronaveFactory" coveredlines="0" coverablelines="3" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Domain.Factories.AeropuertoFactory" coveredlines="0" coverablelines="3" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Domain.Factories.TripulacionFactory" coveredlines="0" coverablelines="3" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Domain.Factories.VueloFactory" coveredlines="0" coverablelines="3" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Vuelos.Domain.Model.Aeronaves.Aeronave" coveredlines="0" coverablelines="9" totallines="32" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="4" />
+    <class name="Vuelos.Domain.Model.Aeropuertos.Aeropuerto" coveredlines="0" coverablelines="19" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="8" />
+    <class name="Vuelos.Domain.Model.Tripulaciones.Tripulacion" coveredlines="0" coverablelines="7" totallines="28" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="3" />
+    <class name="Vuelos.Domain.Model.Vuelos.ItinerarioVuelo" coveredlines="41" coverablelines="42" totallines="65" coveredbranches="0" totalbranches="0" coveredcodeelements="15" totalcodeelements="16" />
+    <class name="Vuelos.Domain.Model.Vuelos.Vuelo" coveredlines="41" coverablelines="41" totallines="76" coveredbranches="3" totalbranches="4" coveredcodeelements="10" totalcodeelements="10" />
+  </assembly>
+  <assembly name="Vuelos.WebApi">
+    <class name="Vuelos.WebApi.Controllers.AeropuertoController" coveredlines="0" coverablelines="10" totallines="33" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.WebApi.Controllers.VuelosController" coveredlines="0" coverablelines="34" totallines="87" coveredbranches="0" totalbranches="10" coveredcodeelements="0" totalcodeelements="6" />
+    <class name="Vuelos.WebApi.Program" coveredlines="0" coverablelines="8" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Vuelos.WebApi.Startup" coveredlines="0" coverablelines="29" totallines="70" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="4" />
+  </assembly>
+</coverage>

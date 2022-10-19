@@ -1,6 +1,7 @@
 ﻿using ShareKernel.Core;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,7 @@ namespace Vuelos.Domain.Model.Vuelos
         public string TipoVuelo { get; private set; }
         public string EstadoItinerarioVuelo { get; private set; }
 
+        [ExcludeFromCodeCoverage]
         private ItinerarioVuelo() { }
 
         //internal ItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
@@ -49,6 +51,11 @@ namespace Vuelos.Domain.Model.Vuelos
             FechaHoraAbordaje = fechaHoraAbordaje;
             FechaHoraPartida = fechaHoraPartida;
             FechaHoraLLegada = DateTime.Now;
+        }
+
+        public void SetNroAsientosHabilitados(int nro)
+        {
+            NroAsientosHabilitados = nro;
         }
 
         public void ConsolidarVueloAsignado()

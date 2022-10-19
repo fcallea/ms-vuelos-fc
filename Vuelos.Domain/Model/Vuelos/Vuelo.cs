@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,9 +29,10 @@ namespace Vuelos.Domain.Model.Vuelos
             }
         }
 
+        [ExcludeFromCodeCoverage]
         private Vuelo() { }
 
-        internal Vuelo(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo)
+        public Vuelo(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo)
         {
             Id = Guid.NewGuid();
             IdAeropuertoOrigen = idAeropuertoOrigen;
