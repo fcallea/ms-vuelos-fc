@@ -18,27 +18,26 @@ namespace Vuelos.Test.Application.Dto {
             var FechaHoraPartida = DateTime.Now;
             var FechaHoraLLegada = DateTime.Now;
             var TipoVuelo = "COMERCIAL";
-            var EsNuevo = true;
+            string EsNuevo = "S";
 
             var itinerario = new ItinerarioVueloDto();
 
-            Assert.Equal(Guid.Empty, itinerario.IdTripulacion);
-            Assert.Equal(Guid.Empty, itinerario.IdAeronave);
-            Assert.NotNull((object)itinerario.FechaHoraAbordaje);
-            Assert.NotNull((object)itinerario.FechaHoraPartida);
-            Assert.NotNull((object)itinerario.FechaHoraLLegada);
-
             itinerario.IdTripulacion = IdTripulacion;
             itinerario.IdAeronave = IdAeronave;
+            itinerario.ZonaAbordaje = ZonaAbordaje;
             itinerario.FechaHoraAbordaje = FechaHoraAbordaje;
             itinerario.FechaHoraPartida = FechaHoraPartida;
             itinerario.FechaHoraLLegada = FechaHoraLLegada;
+            itinerario.NroPuertaAbordaje = NroPuertaAbordaje;
+            itinerario.TipoVuelo = TipoVuelo;
+            itinerario.EsNuevo = EsNuevo;
 
             Assert.Equal(IdTripulacion, itinerario.IdTripulacion);
             Assert.Equal(IdAeronave, itinerario.IdAeronave);
-            Assert.NotNull((object)FechaHoraAbordaje);
-            Assert.NotNull((object)FechaHoraPartida);
-            Assert.NotNull((object)FechaHoraLLegada);
+            Assert.Equal(NroPuertaAbordaje, itinerario.NroPuertaAbordaje);
+            Assert.Equal(TipoVuelo, itinerario.TipoVuelo);
+            Assert.Equal(EsNuevo, itinerario.EsNuevo);
+            Assert.Equal(ZonaAbordaje, itinerario.ZonaAbordaje);
         }
     }
 }

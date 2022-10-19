@@ -11,13 +11,13 @@ namespace Shared.Rabbitmq.EventoQueue
     {
         public Guid VueloGuid { get; set; }
         public Guid TripulacionGuid { get; set; }
-        public Guid AeronaveGuid { get; set; }
+        public Guid Id { get; set; } //AeronaveGuid
 
-        public VueloAsignadoTripulacionQueue(Guid vueloGuid, Guid tripulacionGuid, Guid aeronaveGuid)
+    public VueloAsignadoTripulacionQueue(Guid vueloGuid, Guid tripulacionGuid, Guid aeronaveGuid)
         {
             VueloGuid = vueloGuid;
             TripulacionGuid = tripulacionGuid;
-            AeronaveGuid = aeronaveGuid;
+            Id = aeronaveGuid;
         }
     }
 }

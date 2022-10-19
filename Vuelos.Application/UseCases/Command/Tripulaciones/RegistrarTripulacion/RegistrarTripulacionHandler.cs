@@ -33,7 +33,7 @@ namespace Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion
             if (Tripulacion == null)
             {
                 Guid IdTripulacion = request.Id;
-                string EstadoTripulacion = request.EstadoTripulacion;
+                string EstadoTripulacion = "ACTIVO";//request.EstadoTripulacion;
 
                 Tripulacion = _tripulacionFactory.RegistrarTripulacion(IdTripulacion, EstadoTripulacion);
                 await _tripulacionRepository.CreateAsync(Tripulacion);

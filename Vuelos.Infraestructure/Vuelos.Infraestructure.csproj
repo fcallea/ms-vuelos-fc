@@ -29,6 +29,10 @@
 
 	<ItemGroup>
 	  <Folder Include="EF\Contexts\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage" />
 	</ItemGroup>	
 	
 </Project>
