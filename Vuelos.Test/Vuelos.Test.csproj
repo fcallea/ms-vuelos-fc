@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Shared.Rabbitmq\Shared.Rabbitmq.csproj" />
     <ProjectReference Include="..\Vuelos.Application\Vuelos.Application.csproj" />
     <ProjectReference Include="..\Vuelos.Domain\Vuelos.Domain.csproj" />
     <ProjectReference Include="..\Vuelos.Infraestructure\Vuelos.Infraestructure.csproj" />

@@ -22,7 +22,6 @@ namespace Vuelos.Test.Application {
                     FechaHoraPartida = DateTime.Now,
                     FechaHoraLLegada = DateTime.Now,
                     TipoVuelo = "COMERCIAL"
-
                 },
                 new()
                 {

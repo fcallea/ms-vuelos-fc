@@ -9,9 +9,9 @@ namespace Vuelos.Domain.Factories
 {
     public class TripulacionFactory : ITripulacionFactory
     {
-        public Tripulacion RegistrarTripulacion(Guid IdAeronave, string EstadoAeronave)
+        public Tripulacion RegistrarTripulacion(Guid IdTripulacion, string EstadoTripulacion)
         {
-            return new Tripulacion(IdAeronave, EstadoAeronave);
+            return new Tripulacion(IdTripulacion, EstadoTripulacion);
         }
     }
 }

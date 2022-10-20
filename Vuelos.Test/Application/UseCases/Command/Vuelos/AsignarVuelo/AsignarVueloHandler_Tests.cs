@@ -30,8 +30,11 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
         private readonly Mock<IRabbitEventBus> _eventBus;
 
 
+        private Guid idAeropuertoOrigen = Guid.NewGuid();
+        private Guid idAeropuertoDestino = Guid.NewGuid();
+        private int nroVueloTest = 10;
+        private decimal millasVueloTest = 100;
         private Vuelo vueloTest;
-        private Guid guidTest = Guid.NewGuid();
         private List<ItinerarioVueloDto> listaItinerariosTest = MockFactory.GetListaItinerarios();
 
         public AsignarVueloHandler_Tests()
@@ -47,8 +50,13 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
         [Fact]
         public void AsignarVueloHandler_HandleCorrectly()
         {
-            //_vueloService.Setup(_vueloService => _vueloService.GenerarNroPedidoAsync()).Returns(Task.FromResult(nroPedidoTest));
-            _vueloFactory.Setup(_vueloFactory => _vueloFactory.CrearDestinoVuelo(Guid.NewGuid(), Guid.NewGuid(), 123, 0.0m)).Returns(vueloTest);
+            _vueloService.Setup(_vueloService => _vueloService.GenerarNroVueloAsync(idAeropuertoOrigen, idAeropuertoDestino)).Returns(Task.FromResult(nroVueloTest));
+            Assert.NotEqual(0,nroVueloTest);
+            _vueloService.Setup(_vueloService => _vueloService.CalcularMillasVueloAsync(idAeropuertoOrigen, idAeropuertoDestino)).Returns(Task.FromResult(millasVueloTest));
+            Assert.NotEqual(0, millasVueloTest);
+            _vueloFactory.Setup(_vueloFactory => _vueloFactory.CrearDestinoVuelo(idAeropuertoOrigen, idAeropuertoDestino, nroVueloTest, millasVueloTest)).Returns(vueloTest);
+            _vueloRepository.Setup(_vueloRepository => _vueloRepository.CreateAsync(vueloTest));
+
             var objHandler = new AsignarVueloHandler(
              _unitOfWork.Object,
              _vueloFactory.Object,
@@ -57,10 +65,12 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
              logger.Object,
              _eventBus.Object
             );
+
             var objRequest = new AsignarVueloCommand(
                 vueloTest.Id,
                 listaItinerariosTest
             );
+ 
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);
             Assert.IsType<Guid>(result.Result);
@@ -87,6 +97,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
              logger.Object,
              _eventBus.Object
            );
+
             var objRequest = new AsignarVueloCommand(
                 vueloTest.Id,
                 listaItinerariosTest

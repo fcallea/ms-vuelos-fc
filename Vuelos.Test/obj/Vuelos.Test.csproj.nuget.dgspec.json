@@ -404,6 +404,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
+                "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj"
+              },
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj"
               },

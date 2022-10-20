@@ -309,11 +309,11 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Ap
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Domain.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Infraestructure.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Shared.Rabbitmq.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Application.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Domain.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.WebApi.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Shared.Rabbitmq.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\ShareKernel.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\Vuelos.Test.csproj.AssemblyReference.cache
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\Vuelos.Test.GeneratedMSBuildEditorConfig.editorconfig

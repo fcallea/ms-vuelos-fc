@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "Moq": "4.18.1",
+          "Shared.Rabbitmq": "1.0.0",
           "Vuelos.Application": "1.0.0",
           "Vuelos.Domain": "1.0.0",
           "Vuelos.Infraestructure": "1.0.0",

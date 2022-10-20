@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Vuelos.Application.UseCases.ManejadorRabbit
 {
-    class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueue>
+    public class AeronaveAgregadaEventoManejador : IEventoManejador<AeronaveAgregadaEventoQueue>
     {
         public Task Handle(AeronaveAgregadaEventoQueue evento)
         {
