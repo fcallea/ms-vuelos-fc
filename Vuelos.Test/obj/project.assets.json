@@ -54,8 +54,6 @@
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -81,7 +79,6 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
         }
       },
->>>>>>> desarrollo
       "Microsoft.CodeCoverage/16.11.0": {
         "type": "package",
         "compile": {
@@ -2368,8 +2365,6 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "System.Text.Encodings.Web/4.5.0": {
         "type": "package",
         "compile": {
@@ -2379,7 +2374,6 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
->>>>>>> desarrollo
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2672,15 +2666,10 @@
         "dependencies": {
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-<<<<<<< HEAD
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
-=======
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Shared.Rabbitmq": "1.0.0",
->>>>>>> desarrollo
           "Vuelos.Domain": "1.0.0"
         },
         "compile": {
@@ -2722,10 +2711,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-<<<<<<< HEAD
-=======
           "Shared.Rabbitmq": "1.0.0",
->>>>>>> desarrollo
           "Swashbuckle.AspNetCore": "5.6.3",
           "Vuelos.Infraestructure": "1.0.0"
         },
@@ -2860,8 +2846,6 @@
         "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
       "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
       "type": "package",
@@ -2888,7 +2872,6 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
->>>>>>> desarrollo
     "Microsoft.CodeCoverage/16.11.0": {
       "sha512": "wf6lpAeCqP0KFfbDVtfL50lr7jY1gq0+0oSphyksfLOEygMDXqnaxHK5LPFtMEhYSEtgXdNyXNnEddOqQQUdlQ==",
       "type": "package",
@@ -8249,8 +8232,6 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "System.Text.Encodings.Web/4.5.0": {
       "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "type": "package",
@@ -8270,7 +8251,6 @@
         "version.txt"
       ]
     },
->>>>>>> desarrollo
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",

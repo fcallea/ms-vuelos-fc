@@ -166,12 +166,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj"
               },
->>>>>>> desarrollo
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj"
               }
@@ -196,13 +193,10 @@
               "target": "Package",
               "version": "[10.0.1, )"
             },
-<<<<<<< HEAD
-=======
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
->>>>>>> desarrollo
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -505,12 +499,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj"
               },
->>>>>>> desarrollo
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj"
               }

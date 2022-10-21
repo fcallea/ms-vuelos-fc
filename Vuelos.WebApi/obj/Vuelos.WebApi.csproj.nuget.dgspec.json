@@ -4,16 +4,6 @@
     "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.WebApi\\Vuelos.WebApi.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
-    "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
-        "projectName": "ShareKernel",
-        "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\ShareKernel.csproj",
-        "packagesPath": "C:\\Users\\JIMENA\\.nuget\\packages\\",
-        "outputPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\ShareKernel\\obj\\",
-=======
     "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -22,7 +12,6 @@
         "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj",
         "packagesPath": "C:\\Users\\JIMENA\\.nuget\\packages\\",
         "outputPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\obj\\",
->>>>>>> desarrollo
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,8 +19,6 @@
         "configFilePaths": [
           "C:\\Users\\JIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-<<<<<<< HEAD
-=======
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,7 +95,6 @@
         "configFilePaths": [
           "C:\\Users\\JIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> desarrollo
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,12 +166,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj"
               },
->>>>>>> desarrollo
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Domain\\Vuelos.Domain.csproj"
               }
@@ -416,12 +399,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj"
               },
->>>>>>> desarrollo
               "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj": {
                 "projectPath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Infraestructure\\Vuelos.Infraestructure.csproj"
               }
