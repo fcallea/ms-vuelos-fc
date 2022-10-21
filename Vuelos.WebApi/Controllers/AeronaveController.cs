@@ -4,7 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Vuelos.Application.Dto.Aeronave;
 using Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave;
+using Vuelos.Application.UseCases.Queries.Aeronave.GetListarAeronaves;
 
 namespace Vuelos.WebApi.Controllers
 {
@@ -28,6 +30,12 @@ namespace Vuelos.WebApi.Controllers
                 return BadRequest();
 
             return Ok(id);
+        }
+
+        [HttpGet("ListarAeronaves")]
+        public async Task<ActionResult<List<AeronaveDto>>> ListarAeronaves()
+        {
+            return await _mediator.Send(new GetListarAeronaveQuery());
         }
     }
 }
