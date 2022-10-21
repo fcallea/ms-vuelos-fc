@@ -59,7 +59,7 @@ namespace Vuelos.WebApi.Controllers
             return Ok(id);
         }
 
-
+/*
         [HttpPost("RegistrarTripulacion")]
         public async Task<IActionResult> GuardarTripulacion([FromBody] RegistrarTripulacionCommand command)
         {
@@ -82,6 +82,6 @@ namespace Vuelos.WebApi.Controllers
 
             return Ok(id);
         }
-
+*/
     }
 }

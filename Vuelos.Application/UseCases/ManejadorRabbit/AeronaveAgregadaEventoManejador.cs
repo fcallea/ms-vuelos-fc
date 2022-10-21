@@ -15,7 +15,7 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
     {
         public Task Handle(AeronaveAgregadaEventoQueue evento)
         {
-            var url = "https://localhost:44365/api/Vuelo/RegistrarAeronave";
+            var url = "https://localhost:44365/api/Aeronave/RegistrarAeronave";
             //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeronave";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";

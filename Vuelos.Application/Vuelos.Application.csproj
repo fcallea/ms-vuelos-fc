@@ -16,5 +16,9 @@
 	  <ProjectReference Include="..\Shared.Rabbitmq\Shared.Rabbitmq.csproj" />
 	  <ProjectReference Include="..\Vuelos.Domain\Vuelos.Domain.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Dto\Tripulacion\" />
+	</ItemGroup>
 	
 </Project>
