@@ -15,5 +15,6 @@ namespace Vuelos.Application.Dto.Vuelo
         public string DepartamentoDestino { get; set; }
         public Guid IdAeropuertoDestino { get; set; }
         public string NombreAeropuertoDestino { get; set; }
+        public string DestinoVueloNombre { get; set; }
     }
 }

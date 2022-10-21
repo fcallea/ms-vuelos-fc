@@ -64,5 +64,13 @@ namespace Vuelos.Infraestructure.EF.Repository
             _itinerario.Update(iti);
             return Task.CompletedTask;
         }
+        public async Task<ICollection<Vuelo>> getDestinosVueloActiva()
+        {
+            var vueloList = await _vuelos
+                            .AsNoTracking()
+                            //.Where(x => x.EstadoTripulacion.Contains("ACTIVO"))
+                            .ToListAsync();
+            return vueloList;
+        }
     }
 }
