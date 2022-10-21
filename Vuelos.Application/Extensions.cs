@@ -21,8 +21,8 @@ namespace Vuelos.Application
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddTransient<IVueloService, VueloService>();
-            services.AddTransient<IVueloFactory, VueloFactory>();
 
+            services.AddTransient<IVueloFactory, VueloFactory>();
             services.AddTransient<IAeropuertoFactory, AeropuertoFactory>();
             services.AddTransient<IAeronaveFactory, AeronaveFactory>();
             services.AddTransient<ITripulacionFactory, TripulacionFactory>();

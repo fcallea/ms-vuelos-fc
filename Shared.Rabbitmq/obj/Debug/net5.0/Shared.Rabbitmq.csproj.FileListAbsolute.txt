@@ -20,4 +20,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Share
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\ref\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.csproj.AssemblyReference.cache

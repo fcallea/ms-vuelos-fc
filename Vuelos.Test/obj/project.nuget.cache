@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oz8rHnFW6rxYfviPGxiMQDYzE5l4VzKt7oPStT4yBzPY57npf9Fkdp/QX73AmvaA0dlHDguKFMCpaMxjjJexhA==",
+  "dgSpecHash": "icSKdubqHS0SFGjpPVEdVUczSQJ9TVeW+ZAc9I3wmGjjyNx1bKmQb14RjtiytlVhNX94hWpVENoVP6hBzuwdrA==",
   "success": true,
   "projectFilePath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Test\\Vuelos.Test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JIMENA\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
@@ -12,7 +13,7 @@
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
-    "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",

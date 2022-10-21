@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "idEMgE34lBj+JigwqRJdVWrPYm57LN1kgSBWsmnJVZelKngLu1oPImM2n+2R9ducMLEReiJmkJiOVFpB7GO6Sw==",
+  "dgSpecHash": "LEcArDReOnDvxn87greWPJXIDLk3xQ3uwDNKoEQSAeKX+zHq/ZK3mTy3E+BBt0r6w/reforhL9MmhGH3ORCVKg==",
   "success": true,
   "projectFilePath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.Application\\Vuelos.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JIMENA\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",

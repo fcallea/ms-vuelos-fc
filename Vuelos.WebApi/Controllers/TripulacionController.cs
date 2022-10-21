@@ -4,7 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Vuelos.Application.Dto.Tripulacion;
 using Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion;
+using Vuelos.Application.UseCases.Queries.Tripulacion.GetListarTripulacion;
 
 namespace Vuelos.WebApi.Controllers
 {
@@ -28,6 +30,12 @@ namespace Vuelos.WebApi.Controllers
                 return BadRequest();
 
             return Ok(id);
+        }
+
+        [HttpGet("ListarTripulacion")]
+        public async Task<ActionResult<List<TripulacionDto>>> ListarTripulacion()
+        {
+            return await _mediator.Send(new GetListarTripulacionQuery());
         }
     }
 }

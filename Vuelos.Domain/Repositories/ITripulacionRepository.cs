@@ -11,6 +11,7 @@ namespace Vuelos.Domain.Repositories
     {
         Task CreateAsync(Tripulacion obj);
         Task<Tripulacion> FindByIdAsync(Guid id);
+        Task<ICollection<Tripulacion>> getTripulacionActiva();
         Task UpdateAsync(Tripulacion obj);
     }
 }
