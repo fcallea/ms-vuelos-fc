@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace Vuelos.Domain.Model.Vuelos
         public decimal MillasVuelo { get; private set; }
 
         private readonly ICollection<ItinerarioVuelo> _listaItinerariosVuelo;
+        //public ICollection<ItinerarioVuelo> _listaItinerariosVuelo;
 
         public IReadOnlyCollection<ItinerarioVuelo> ListaItinerariosVuelo
         {
@@ -27,9 +29,10 @@ namespace Vuelos.Domain.Model.Vuelos
             }
         }
 
+        [ExcludeFromCodeCoverage]
         private Vuelo() { }
 
-        internal Vuelo(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo)
+        public Vuelo(Guid idAeropuertoOrigen, Guid idAeropuertoDestino, int nroVuelo, decimal millasVuelo)
         {
             Id = Guid.NewGuid();
             IdAeropuertoOrigen = idAeropuertoOrigen;
@@ -40,19 +43,28 @@ namespace Vuelos.Domain.Model.Vuelos
             _listaItinerariosVuelo = new List<ItinerarioVuelo>();
         }
 
-        public void AsignarItinerarioVuelo(Guid idTripulacion, Guid idAeronave, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, DateTime fechaHoraPartida)
+        public ItinerarioVuelo AgregarItinerarioVuelo(Guid idTripulacion, Guid idAeronave, DateTime fechaHoraPartida, string zonaAbordaje, string nroPuertaAbordaje, DateTime fechaHoraAbordaje, out bool esNuevo)
         {
-            var itinerarioVuelo = _listaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == idTripulacion && x.IdAeronave == idAeronave && x.FechaHoraPartida == fechaHoraPartida);
-            if (itinerarioVuelo is null)
+            esNuevo = false;
+            var itinerario = _listaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == idTripulacion && x.IdAeronave == idAeronave);
+            if (itinerario is null)
             {
-                itinerarioVuelo = new ItinerarioVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
-                _listaItinerariosVuelo.Add(itinerarioVuelo);
+                esNuevo = true;
+                itinerario = new ItinerarioVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
+                _listaItinerariosVuelo.Add(itinerario);
             }
             else
             {
-                itinerarioVuelo.ModificarVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
+                esNuevo = false;
+                itinerario.ModificarVuelo(idTripulacion, idAeronave, zonaAbordaje, nroPuertaAbordaje, fechaHoraAbordaje, fechaHoraPartida);
             }
-            AddDomainEvent(new VueloAsignado(Id, itinerarioVuelo.Id, idTripulacion, idAeronave));
+            AddDomainEvent(new VueloAsignado(itinerario.Id, idTripulacion, idAeronave));
+            return itinerario;
+        }
+
+        public void CambiarEstado(string estado)
+        {
+            EstadoVuelo = estado;
         }
 
         public void ConsolidarDestinoVuelo()

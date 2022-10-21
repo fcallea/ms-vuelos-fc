@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage()]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vuelos.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

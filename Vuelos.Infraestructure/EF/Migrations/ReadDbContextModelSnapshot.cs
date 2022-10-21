@@ -19,6 +19,41 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeronaveReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Comentario")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Comentario");
+
+                    b.Property<string>("EstadoAeronave")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("EstadoAeronave");
+
+                    b.Property<string>("Marca")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Marca");
+
+                    b.Property<string>("Modelo")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Modelo");
+
+                    b.Property<int>("NroAsientos")
+                        .HasColumnType("int")
+                        .HasColumnName("NroAsientos");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Aeronave");
+                });
+
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.AeropuertoReadModel", b =>
                 {
                     b.Property<Guid>("Id")
@@ -73,7 +108,7 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("FechaHoraPartida")
-                        .HasColumnType("datetime")
+                        .HasColumnType("DateTime")
                         .HasColumnName("FechaHoraPartida");
 
                     b.Property<Guid>("IdAeronave")
@@ -83,11 +118,6 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     b.Property<Guid>("IdTripulacion")
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("IdTripulacion");
-
-                    b.Property<Guid>("IdVuelo")
-                        .HasMaxLength(40)
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnName("IdVuelo");
 
                     b.Property<int>("NroAsientosHabilitados")
                         .HasColumnType("int")
@@ -116,6 +146,27 @@ namespace Vuelos.Infraestructure.EF.Migrations
                     b.HasIndex("VueloId");
 
                     b.ToTable("ItinerarioVuelo");
+                });
+
+            modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.TripulacionReadModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("EstadoTripulacion")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("EstadoTripulacion");
+
+                    b.Property<string>("TripulacionNombre")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("TripulacionNombre");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tripulacion");
                 });
 
             modelBuilder.Entity("Vuelos.Infraestructure.EF.ReadModel.VueloReadModel", b =>

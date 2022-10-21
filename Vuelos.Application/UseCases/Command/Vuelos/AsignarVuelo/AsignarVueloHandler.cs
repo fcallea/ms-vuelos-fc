@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Logging;
+using Shared.Rabbitmq.BusRabbit;
+using Shared.Rabbitmq.EventoQueue;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +18,12 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
 {
     public class AsignarVueloHandler : IRequestHandler<AsignarVueloCommand, Guid>
     {
-        private readonly IVueloRepository vueloRepository;
-        private readonly IVueloService vueloService;
-        private readonly IUnitOfWork unitOfWork;
-        private readonly IVueloFactory vueloFactory;
+        private readonly IVueloRepository _vueloRepository;
+        private readonly IVueloService _vueloService;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IVueloFactory _vueloFactory;
         private readonly ILogger<AsignarVueloCommand> _logger;
+        private readonly IRabbitEventBus _eventBus;
 
         public AsignarVueloHandler(
               IUnitOfWork unitOfWork
@@ -28,44 +31,45 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
             , IVueloRepository vueloRepository
             , IVueloService vueloService
             , ILogger<AsignarVueloCommand> logger
+            , IRabbitEventBus eventBus
              )
         {
-            this.vueloRepository = vueloRepository;
-            this.vueloService = vueloService;
-            this.unitOfWork = unitOfWork;
-            this.vueloFactory = vueloFactory;
+            _vueloRepository = vueloRepository;
+            _vueloService = vueloService;
+            _unitOfWork = unitOfWork;
+            _vueloFactory = vueloFactory;
             _logger = logger;
+            _eventBus = eventBus;
         }
 
         public async Task<Guid> Handle(AsignarVueloCommand request, CancellationToken cancellationToken)
         {
-            VueloDto result = null;
-            try
+            var objVuelo = await _vueloRepository.FindByIdVueloAsync(request.IdVuelo);           
+            foreach (var itinerario in request.ListaItinerarios)
             {
-                Vuelo objVuelo = await vueloRepository.FindByIdAsync(request.IdVuelo);
-
-                result = new VueloDto()
+                bool esNuevo = false;
+                var objItinerario = objVuelo.AgregarItinerarioVuelo(itinerario.IdTripulacion, itinerario.IdAeronave, itinerario.FechaHoraPartida, itinerario.ZonaAbordaje, itinerario.NroPuertaAbordaje, itinerario.FechaHoraAbordaje, out esNuevo);
+                var itinerarioBD = objVuelo.ListaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == itinerario.IdTripulacion && x.IdAeronave == itinerario.IdAeronave);
+                if (esNuevo)
                 {
-                    IdVuelo = objVuelo.Id,
-                };
-                /*
-                foreach (var item in objdestinoVuelo.Detalle)
-                {
-                    result.Detalle.Add(new DetalledestinoVueloDto()
-                    {
-                        Cantidad = item.Cantidad,
-                        Instrucciones = item.Instrucciones,
-                        Precio = item.Precio,
-                        ProductoId = item.ProductoId
-                    });
+                    await _vueloRepository.SaveItinerarioAsync(objItinerario);
+                    _eventBus.Publish(new VueloAsignadoAeronaveQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
+                    _eventBus.Publish(new VueloAsignadoTripulacionQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
+                    string detalleVuelo = "LA PAZ - TARIJA";
+                    int cantAsientos = 50;
+                    _eventBus.Publish(new VueloAsignadoReservaQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave, detalleVuelo, cantAsientos));
                 }
-                */
+                else
+                {
+                    await _vueloRepository.UpdateItinerarioAsync(objItinerario);
+                }
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al obtener destinoVuelo con id: { VueloId }", request.IdVuelo);
-            }
-            return result.IdVuelo;
+            //await vueloRepository.CreateAsync(objVuelo);
+            //await vueloRepository.UpdateAsync(objVuelo);
+
+            await _unitOfWork.Commit();
+
+            return objVuelo.Id;
         }
     }
 }

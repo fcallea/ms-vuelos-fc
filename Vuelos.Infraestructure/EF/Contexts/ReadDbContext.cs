@@ -14,6 +14,8 @@ namespace Vuelos.Infraestructure.EF.Contexts
         public virtual DbSet<VueloReadModel> Vuelo { get; set; }
         public virtual DbSet<ItinerarioVueloReadModel> ItinerarioVuelo { get; set; }
         public virtual DbSet<AeropuertoReadModel> Aeropuerto { get; set; }
+        public virtual DbSet<TripulacionReadModel> Tripulacion { get; set; }
+        public virtual DbSet<AeronaveReadModel> Aeronave { get; set; }
 
         public ReadDbContext(DbContextOptions<ReadDbContext> options) : base(options)
         {
@@ -29,6 +31,12 @@ namespace Vuelos.Infraestructure.EF.Contexts
 
             var aeropuertoConfig = new AeropuertoReadConfig();
             modelBuilder.ApplyConfiguration<AeropuertoReadModel>(aeropuertoConfig);
+
+            var aeronaveConfig = new AeronaveReadConfig();
+            modelBuilder.ApplyConfiguration<AeronaveReadModel>(aeronaveConfig);
+
+            var tripulacionConfig = new TripulacionReadConfig();
+            modelBuilder.ApplyConfiguration<TripulacionReadModel>(tripulacionConfig);
         }
     }
 }

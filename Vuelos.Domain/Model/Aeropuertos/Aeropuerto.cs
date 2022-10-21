@@ -1,6 +1,7 @@
 ﻿using ShareKernel.Core;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace Vuelos.Domain.Model.Aeropuertos
         public string OACI { get; set; }
         public string IATA { get; set; }
 
+        [ExcludeFromCodeCoverage]
         private Aeropuerto() { }
 
         internal Aeropuerto(Guid id, string NombreAeropuerto, string Localidad, string Departamento, string OACI, string IATA)
@@ -28,10 +30,12 @@ namespace Vuelos.Domain.Model.Aeropuertos
             this.IATA = IATA;
         }
 
+        /*
         public void ConsolidarAeropuerto()
         {
             var evento = new AeropuertoRegistrado(Id);
             AddDomainEvent(evento);
         }
+        */
     }
 }

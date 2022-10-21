@@ -55,10 +55,6 @@ namespace Vuelos.Infraestructure.EF.Config.ReadConfig
                 .HasColumnName("IdAeronave")
                 .HasColumnType("uniqueidentifier");
 
-            builder.Property<Guid>(x => x.IdVuelo)
-                .HasColumnName("IdVuelo")
-                .HasMaxLength(40);
-
             builder.Property<DateTime>(x => x.FechaHoraCreacion)
                 .HasColumnName("FechaHoraCreacion")
                 .HasColumnType("DateTime");
@@ -79,7 +75,7 @@ namespace Vuelos.Infraestructure.EF.Config.ReadConfig
 
             builder.Property(x => x.FechaHoraPartida)
                 .HasColumnName("FechaHoraPartida")
-                .HasColumnType("datetime");
+                .HasColumnType("DateTime");
 
             builder.Property<int>(x => x.NroAsientosHabilitados)
                 .HasColumnName("NroAsientosHabilitados")

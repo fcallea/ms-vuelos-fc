@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos.WebApi", "Vuelos.WebApi\Vuelos.WebApi.csproj", "{AE32C428-A964-4E18-807D-CE5C8FAA35E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vuelos.WebApi", "Vuelos.WebApi\Vuelos.WebApi.csproj", "{AE32C428-A964-4E18-807D-CE5C8FAA35E6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareKernel", "ShareKernel\ShareKernel.csproj", "{E2322D6B-3FCE-4879-9BE9-0D71A494FB13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos.Infraestructure", "Vuelos.Infraestructure\Vuelos.Infraestructure.csproj", "{7520FB6A-3402-474C-9C5F-AA4EED11EF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vuelos.Infraestructure", "Vuelos.Infraestructure\Vuelos.Infraestructure.csproj", "{7520FB6A-3402-474C-9C5F-AA4EED11EF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos.Domain", "Vuelos.Domain\Vuelos.Domain.csproj", "{F886B2CF-77C6-4594-BA5E-5B2F2C8120E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vuelos.Domain", "Vuelos.Domain\Vuelos.Domain.csproj", "{F886B2CF-77C6-4594-BA5E-5B2F2C8120E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos.Application", "Vuelos.Application\Vuelos.Application.csproj", "{6DD5F4BE-3C5A-444E-B7F7-B0898913BF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vuelos.Application", "Vuelos.Application\Vuelos.Application.csproj", "{6DD5F4BE-3C5A-444E-B7F7-B0898913BF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Rabbitmq", "Shared.Rabbitmq\Shared.Rabbitmq.csproj", "{BB095DDF-37D2-4864-B170-B5C22C3BED21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vuelos.Test", "Vuelos.Test\Vuelos.Test.csproj", "{DC409AE8-BDA5-457A-AB61-1FAF264D4E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{6DD5F4BE-3C5A-444E-B7F7-B0898913BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD5F4BE-3C5A-444E-B7F7-B0898913BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD5F4BE-3C5A-444E-B7F7-B0898913BF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB095DDF-37D2-4864-B170-B5C22C3BED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB095DDF-37D2-4864-B170-B5C22C3BED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB095DDF-37D2-4864-B170-B5C22C3BED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB095DDF-37D2-4864-B170-B5C22C3BED21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC409AE8-BDA5-457A-AB61-1FAF264D4E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC409AE8-BDA5-457A-AB61-1FAF264D4E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC409AE8-BDA5-457A-AB61-1FAF264D4E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC409AE8-BDA5-457A-AB61-1FAF264D4E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
