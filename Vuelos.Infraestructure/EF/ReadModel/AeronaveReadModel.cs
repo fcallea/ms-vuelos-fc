@@ -11,5 +11,9 @@ namespace Vuelos.Infraestructure.EF.ReadModel
         public Guid Id { get; set; }
         public int NroAsientos { get; set; }
         public string EstadoAeronave { get; set; }
+        public string Marca { get; set; }
+        public string Modelo { get; set; }
+        public string Comentario { get; set; }
+
     }
 }

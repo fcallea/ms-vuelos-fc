@@ -11,13 +11,15 @@ namespace Vuelos.Domain.Model.Tripulaciones
     public class Tripulacion : AggregateRoot<Guid>
     {
         public string EstadoTripulacion { get; set; }
+        public string TripulacionNombre { get; set; }
 
         [ExcludeFromCodeCoverage]
         private Tripulacion() { }
 
-        internal Tripulacion(Guid id, string estadoTripulacion)
+        internal Tripulacion(Guid id, string tripulacionNombre, string estadoTripulacion)
         {
             Id = id;
+            TripulacionNombre = tripulacionNombre;
             EstadoTripulacion = estadoTripulacion;
         }
         /*

@@ -35,8 +35,11 @@ namespace Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave
                 Guid IdAeronave = request.Id;
                 int NroAsientos = request.NroAsientos;
                 string EstadoAeronave = request.EstadoAeronave;
-               
-                aeronave = _aeronaveFactory.RegistrarAeronave(IdAeronave, NroAsientos, EstadoAeronave);
+                string Marca = request.Marca;
+                string Modelo = request.Modelo;
+                string Comentario = request.Comentario;
+
+                aeronave = _aeronaveFactory.RegistrarAeronave(IdAeronave, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario);
                 await _aeronaveRepository.CreateAsync(aeronave);
 
                 await _unitOfWork.Commit();

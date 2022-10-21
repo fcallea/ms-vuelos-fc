@@ -16,12 +16,19 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
             var Id = Guid.NewGuid();
             var NroAsientos = 30;
             var EstadoAeronave = "ACTIVO";
+            var Marca = "Marca";
+            var Modelo = "Modelo";
+            var Comentario = "Comentario";
 
-            var command = new RegistrarAeronaveCommand(Id, NroAsientos, EstadoAeronave);
+            var command = new RegistrarAeronaveCommand(Id, NroAsientos, EstadoAeronave,Marca,Modelo,Comentario);
 
             Assert.Equal(Id, command.Id);
             Assert.Equal(NroAsientos, command.NroAsientos);
             Assert.Equal(EstadoAeronave, command.EstadoAeronave);
+            Assert.Equal(Marca, command.Marca);
+            Assert.Equal(Modelo, command.Modelo);
+            Assert.Equal(Comentario, command.Comentario);
+
         }
 
 
@@ -32,6 +39,9 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
             Assert.Null((object)command.Id);
             Assert.Equal(0, command.NroAsientos);
             Assert.Equal("ACTIVO", command.EstadoAeronave);
+            Assert.Equal("Marca", command.Marca);
+            Assert.Equal("Modelo", command.Modelo);
+            Assert.Equal("Comentario", command.Comentario);
         }
 
     }

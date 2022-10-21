@@ -9,9 +9,9 @@ namespace Vuelos.Domain.Factories
 {
     public class AeronaveFactory : IAeronaveFactory
     {
-        public Aeronave RegistrarAeronave(Guid IdAeronave, int NroAsientos, string EstadoAeronave)
+        public Aeronave RegistrarAeronave(Guid IdAeronave, int NroAsientos, string EstadoAeronave, string Marca, string Modelo, string Comentario)
         {
-            return new Aeronave(IdAeronave, NroAsientos, EstadoAeronave);
+            return new Aeronave(IdAeronave, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario);
         }
     }
 }

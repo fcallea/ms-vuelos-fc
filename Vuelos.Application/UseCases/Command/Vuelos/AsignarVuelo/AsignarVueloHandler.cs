@@ -53,10 +53,11 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
                 if (esNuevo)
                 {
                     await _vueloRepository.SaveItinerarioAsync(objItinerario);
-
                     _eventBus.Publish(new VueloAsignadoAeronaveQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
                     _eventBus.Publish(new VueloAsignadoTripulacionQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
-                    _eventBus.Publish(new VueloAsignadoReservaQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
+                    string detalleVuelo = "LA PAZ - TARIJA";
+                    int cantAsientos = 50;
+                    _eventBus.Publish(new VueloAsignadoReservaQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave, detalleVuelo, cantAsientos));
                 }
                 else
                 {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ED7ma65gibqrxK7Hf6oNVnAOxpaDB4YRs/54YDPZbPv7Qiz+QronU2gKsIFP/y7kiJbSiYapkODZ8LMu7FMsvQ==",
+  "dgSpecHash": "7zQCZ8qdA9VXElkz+5hxcqhUGqnNg9u+SrErAgQFac0uHAMan0hIgYP9h3Q8VbEir2jtb14RSUNUJhOD07c5sA==",
   "success": true,
   "projectFilePath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Shared.Rabbitmq\\Shared.Rabbitmq.csproj",
   "expectedPackageFiles": [

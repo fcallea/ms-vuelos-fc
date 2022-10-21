@@ -9,6 +9,7 @@ namespace Vuelos.Infraestructure.EF.ReadModel
     public class TripulacionReadModel
     {
         public Guid Id { get; set; }
+        public string TripulacionNombre { get; set; }
         public string EstadoTripulacion { get; set; }
     }
 }

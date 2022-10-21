@@ -23,7 +23,20 @@ namespace Vuelos.Infraestructure.EF.Config.ReadConfig
             builder.Property<string>(x => x.EstadoAeronave)
                 .HasColumnName("EstadoAeronave")
                 .HasColumnType("nvarchar(20)")
-                .HasMaxLength(120);   
+                .HasMaxLength(20);
+
+            builder.Property<string>(x => x.Marca)
+                .HasColumnName("Marca")
+                .HasColumnType("nvarchar(120)")
+                .HasMaxLength(120);
+            builder.Property<string>(x => x.Modelo)
+                .HasColumnName("Modelo")
+                .HasColumnType("nvarchar(120)")
+                .HasMaxLength(120);
+            builder.Property<string>(x => x.Comentario)
+                .HasColumnName("Comentario")
+                .HasColumnType("nvarchar(120)")
+                .HasMaxLength(120);
         }
     }
 }

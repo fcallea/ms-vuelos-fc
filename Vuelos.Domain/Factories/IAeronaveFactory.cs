@@ -9,6 +9,6 @@ namespace Vuelos.Domain.Factories
 {
     public interface IAeronaveFactory
     {
-        Aeronave RegistrarAeronave(Guid IdAeronave, int NroAsientos, string EstadoAeronave);
+        Aeronave RegistrarAeronave(Guid IdAeronave, int NroAsientos, string EstadoAeronave, string Marca, string Modelo, string Comentario);
     }
 }

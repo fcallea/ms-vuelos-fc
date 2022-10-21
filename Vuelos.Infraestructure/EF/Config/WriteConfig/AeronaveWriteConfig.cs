@@ -22,6 +22,15 @@ namespace Vuelos.Infraestructure.EF.Config.WriteConfig
             builder.Property(x => x.EstadoAeronave)
                 .HasColumnName("EstadoAeronave")
                 .HasMaxLength(20);
+            builder.Property(x => x.Marca)
+                .HasColumnName("Marca")
+                .HasMaxLength(120);
+            builder.Property(x => x.Modelo)
+                .HasColumnName("Modelo")
+                .HasMaxLength(120);
+            builder.Property(x => x.Comentario)
+                .HasColumnName("Comentario")
+                .HasMaxLength(120);
 
             builder.Ignore("_domainEvents");
             builder.Ignore(x => x.DomainEvents);

@@ -87,6 +87,7 @@ D:\API\Proyectos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\ref\Vuelos.App
 D:\API\Proyectos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\Vuelos.Application.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\Vuelos.Application.deps.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\Vuelos.Application.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\ref\Vuelos.Application.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\Vuelos.Application.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\bin\Debug\net5.0\ShareKernel.dll
@@ -103,4 +104,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\Vu
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\Vuelos.Application.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\ref\Vuelos.Application.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\Vuelos.Application.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Application\obj\Debug\net5.0\refint\Vuelos.Application.dll

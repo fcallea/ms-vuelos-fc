@@ -25,10 +25,25 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("EstadoAeronave")
+                    b.Property<string>("Comentario")
                         .HasMaxLength(120)
                         .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Comentario");
+
+                    b.Property<string>("EstadoAeronave")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
                         .HasColumnName("EstadoAeronave");
+
+                    b.Property<string>("Marca")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Marca");
+
+                    b.Property<string>("Modelo")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("Modelo");
 
                     b.Property<int>("NroAsientos")
                         .HasColumnType("int")
@@ -143,6 +158,11 @@ namespace Vuelos.Infraestructure.EF.Migrations
                         .HasMaxLength(120)
                         .HasColumnType("nvarchar(120)")
                         .HasColumnName("EstadoTripulacion");
+
+                    b.Property<string>("TripulacionNombre")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)")
+                        .HasColumnName("TripulacionNombre");
 
                     b.HasKey("Id");
 

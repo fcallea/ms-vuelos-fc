@@ -23,6 +23,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
 
         private Guid Id = Guid.NewGuid();
         private int EstadoTripulacion = 1;
+        private string TripulacionNombre = "Tripulantes";
         private string TxtEstadoTripulacion = "PENDIENTE";
         private Tripulacion tripulacionTest;
 
@@ -34,13 +35,13 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
 
             if (EstadoTripulacion == 1)
                 TxtEstadoTripulacion = "ACTIVO";
-            tripulacionTest = new TripulacionFactory().RegistrarTripulacion(Id, TxtEstadoTripulacion);
+            tripulacionTest = new TripulacionFactory().RegistrarTripulacion(Id, TripulacionNombre, TxtEstadoTripulacion);
         }
 
         [Fact]
         public void RegistrarAeronaveHandler_HandleCorrectly()
         {
-            tripulacionFactory.Setup(factory => factory.RegistrarTripulacion(Id, TxtEstadoTripulacion)).Returns(tripulacionTest);
+            tripulacionFactory.Setup(factory => factory.RegistrarTripulacion(Id, TripulacionNombre, TxtEstadoTripulacion)).Returns(tripulacionTest);
             tripulacionRepository.Setup(repository => repository.CreateAsync(tripulacionTest));
 
             var objHandler = new RegistrarTripulacionHandler(
@@ -49,7 +50,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
                 tripulacionRepository.Object
             );
             var objRequest = new RegistrarTripulacionCommand(
-               Id, EstadoTripulacion
+               Id, TripulacionNombre, EstadoTripulacion
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);
@@ -69,7 +70,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
                 tripulacionRepository.Object
             );
             var objRequest = new RegistrarTripulacionCommand(
-               Id, EstadoTripulacion
+               Id, TripulacionNombre, EstadoTripulacion
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);

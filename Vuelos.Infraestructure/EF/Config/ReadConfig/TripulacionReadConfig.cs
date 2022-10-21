@@ -19,7 +19,12 @@ namespace Vuelos.Infraestructure.EF.Config.ReadConfig
             builder.Property<string>(x => x.EstadoTripulacion)
                 .HasColumnName("EstadoTripulacion")
                 .HasColumnType("nvarchar(20)")
-                .HasMaxLength(120);   
+                .HasMaxLength(120);
+
+            builder.Property<string>(x => x.TripulacionNombre)
+                .HasColumnName("TripulacionNombre")
+                .HasColumnType("nvarchar(120)")
+                .HasMaxLength(120);
         }
     }
 }

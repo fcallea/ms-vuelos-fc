@@ -23,6 +23,19 @@ namespace Vuelos.WebApi.Controllers
             _mediator = mediator;
         }
 
+        [Route("{id:guid}")]
+        [HttpGet]
+        public async Task<IActionResult> GetPedidoById([FromRoute] GetDestinoVueloByIdQuery command)
+        {
+            DestinoVueloDto result = await _mediator.Send(command);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(result);
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CrearDestinoVueloCommand command)
         {
@@ -45,19 +58,6 @@ namespace Vuelos.WebApi.Controllers
 
             return Ok(id);
         }
-
-        [Route("{id:guid}")]
-        [HttpGet]
-        public async Task<IActionResult> GetPedidoById([FromRoute] GetDestinoVueloByIdQuery command)
-        {
-            DestinoVueloDto result = await _mediator.Send(command);
-
-            if (result == null)
-                return NotFound();
-
-            return Ok(result);
-        }
-
 
 
         [HttpPost("RegistrarTripulacion")]

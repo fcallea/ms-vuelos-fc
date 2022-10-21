@@ -13,7 +13,10 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     NroAsientos = table.Column<int>(type: "int", nullable: false),
-                    EstadoAeronave = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true)
+                    EstadoAeronave = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    Marca = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    Modelo = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    Comentario = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -41,6 +44,7 @@ namespace Vuelos.Infraestructure.EF.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    TripulacionNombre = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
                     EstadoTripulacion = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true)
                 },
                 constraints: table =>

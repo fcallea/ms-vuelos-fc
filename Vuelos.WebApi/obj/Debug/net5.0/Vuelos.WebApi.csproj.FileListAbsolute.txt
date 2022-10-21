@@ -381,6 +381,7 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.runtimeconfig.dev.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\ref\Vuelos.WebApi.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Vuelos.WebApi.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\Humanizer.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\bin\Debug\net5.0\MediatR.dll
@@ -452,4 +453,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\ref\Vuelos.WebApi.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\Vuelos.WebApi.genruntimeconfig.cache
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.WebApi\obj\Debug\net5.0\refint\Vuelos.WebApi.dll

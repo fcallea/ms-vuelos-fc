@@ -68,7 +68,9 @@ D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
 D:\API\Proyectos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ref\ShareKernel.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
@@ -76,5 +78,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKern
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\ShareKernel\obj\Debug\net5.0\refint\ShareKernel.dll

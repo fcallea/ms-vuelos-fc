@@ -54,11 +54,11 @@ namespace Vuelos.Test.WebApi.Controller
             var res3 = controler.AsignarVuelo(req3);
             Assert.NotNull(res3);
 
-            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), 1);
+            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), "Tripulantes", 1);
             var res4 = controler.GuardarTripulacion(req4);
             Assert.NotNull(res4);
 
-            var req5 = new RegistrarAeronaveCommand(Guid.NewGuid(), 30, "Operativo");
+            var req5 = new RegistrarAeronaveCommand(Guid.NewGuid(), 30, "Operativo","Marca","Modelo","Comentario");
             var res5 = controler.GuardarAeronave(req5);
             Assert.NotNull(res5);
         }

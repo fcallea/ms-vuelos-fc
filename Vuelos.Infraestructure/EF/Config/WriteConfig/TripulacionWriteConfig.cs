@@ -16,6 +16,10 @@ namespace Vuelos.Infraestructure.EF.Config.WriteConfig
             builder.ToTable("Tripulacion");
             builder.HasKey(x => x.Id);
 
+            builder.Property(x => x.TripulacionNombre)
+                .HasColumnName("TripulacionNombre")
+                .HasMaxLength(20);
+
             builder.Property(x => x.EstadoTripulacion)
                 .HasColumnName("EstadoTripulacion")
                 .HasMaxLength(20);

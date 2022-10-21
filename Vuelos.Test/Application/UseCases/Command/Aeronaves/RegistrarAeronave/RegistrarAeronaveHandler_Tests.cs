@@ -25,6 +25,9 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
         private Guid Id = Guid.NewGuid();
         private int NroAsientos = 30;
         private string EstadoAeronave = "ACTIVO";
+        private string Marca = "Marca";
+        private string Modelo = "Modelo";
+        private string Comentario = "Comentario";
         private Aeronave aeronaveTest;
 
         public RegistrarAeronaveHandler_Tests()
@@ -32,13 +35,13 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
             aeronaveRepository = new Mock<IAeronaveRepository>();
             aeronaveFactory = new Mock<IAeronaveFactory>();
             unitOfWork = new Mock<IUnitOfWork>();
-            aeronaveTest = new AeronaveFactory().RegistrarAeronave(Id, NroAsientos, EstadoAeronave);
+            aeronaveTest = new AeronaveFactory().RegistrarAeronave(Id, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario);
 
         }
         [Fact]
         public void RegistrarAeronaveHandler_HandleCorrectly()
         {
-            aeronaveFactory.Setup(factory => factory.RegistrarAeronave(Id, NroAsientos, EstadoAeronave)).Returns(aeronaveTest);
+            aeronaveFactory.Setup(factory => factory.RegistrarAeronave(Id, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario)).Returns(aeronaveTest);
             aeronaveRepository.Setup(repository => repository.CreateAsync(aeronaveTest));
 
             var objHandler = new RegistrarAeronaveHandler(
@@ -47,7 +50,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
                 aeronaveRepository.Object                           
             );
             var objRequest = new RegistrarAeronaveCommand(
-               Id, NroAsientos, EstadoAeronave
+               Id, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);
@@ -67,7 +70,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Aeronaves.RegistrarAeronave
                 aeronaveRepository.Object   
             );
             var objRequest = new RegistrarAeronaveCommand(
-               Id, NroAsientos, EstadoAeronave
+               Id, NroAsientos, EstadoAeronave, Marca, Modelo, Comentario
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);
