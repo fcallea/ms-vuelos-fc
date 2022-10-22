@@ -38,7 +38,7 @@ namespace Vuelos.Infraestructure.EF.Repository
         {
             var pedidoList = await _aeronave
                             .AsNoTracking()
-                            //.Where(x => x.EstadoTripulacion.Contains("ACTIVO"))
+                            .Where(x => x.EstadoAeronave.Contains("Operativo"))
                             .ToListAsync();
             return pedidoList;
         }

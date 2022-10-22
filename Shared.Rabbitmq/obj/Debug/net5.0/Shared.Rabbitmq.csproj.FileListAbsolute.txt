@@ -11,8 +11,8 @@ D:\API\Proyectos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\ref\Shared.Rabbit
 D:\API\Proyectos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\bin\Debug\net5.0\Shared.Rabbitmq.deps.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\bin\Debug\net5.0\Shared.Rabbitmq.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\bin\Debug\net5.0\ref\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\bin\Debug\net5.0\Shared.Rabbitmq.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.csproj.AssemblyReference.cache
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.GeneratedMSBuildEditorConfig.editorconfig
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.AssemblyInfoInputs.cache
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.AssemblyInfo.cs
@@ -20,4 +20,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Share
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\ref\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\Shared.Rabbitmq.pdb
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Shared.Rabbitmq\obj\Debug\net5.0\refint\Shared.Rabbitmq.dll

@@ -23,6 +23,9 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
     public class AsignarVueloHandler_Tests
     {
         private readonly Mock<IVueloRepository> _vueloRepository;
+        private readonly Mock<ITripulacionRepository> _tripulacionRepository;
+        private readonly Mock<IAeronaveRepository> _aeronaveRepository;
+        private readonly Mock<IAeropuertoRepository> _aeropuertoRepository;
         private readonly Mock<ILogger<AsignarVueloCommand>> logger;
         private readonly Mock<IVueloService> _vueloService;
         private readonly Mock<IVueloFactory> _vueloFactory;
@@ -40,6 +43,9 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
         public AsignarVueloHandler_Tests()
         {
             _vueloRepository = new Mock<IVueloRepository>();
+            _tripulacionRepository = new Mock<ITripulacionRepository>();
+            _aeronaveRepository = new Mock<IAeronaveRepository>();
+            _aeropuertoRepository = new Mock<IAeropuertoRepository>();
             logger = new Mock<ILogger<AsignarVueloCommand>>();
             _vueloService = new Mock<IVueloService>();
             _vueloFactory = new Mock<IVueloFactory>();
@@ -60,7 +66,8 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
             var objHandler = new AsignarVueloHandler(
              _unitOfWork.Object,
              _vueloFactory.Object,
-             _vueloRepository.Object,
+             _vueloRepository.Object, 
+             _tripulacionRepository.Object, _aeronaveRepository.Object, _aeropuertoRepository.Object,
              _vueloService.Object,
              logger.Object,
              _eventBus.Object
@@ -93,6 +100,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Vuelos.AsignarVuelo
              _unitOfWork.Object,
              _vueloFactory.Object,
              _vueloRepository.Object,
+             _tripulacionRepository.Object, _aeronaveRepository.Object, _aeropuertoRepository.Object,
              _vueloService.Object,
              logger.Object,
              _eventBus.Object

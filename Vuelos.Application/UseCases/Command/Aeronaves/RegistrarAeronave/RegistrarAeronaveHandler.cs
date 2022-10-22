@@ -34,7 +34,7 @@ namespace Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave
             {
                 Guid IdAeronave = request.Id;
                 int NroAsientos = request.NroAsientos;
-                string EstadoAeronave = request.EstadoAeronave;
+                string EstadoAeronave = "Operativo";//request.EstadoAeronave;
                 string Marca = request.Marca;
                 string Modelo = request.Modelo;
                 string Comentario = request.Comentario;

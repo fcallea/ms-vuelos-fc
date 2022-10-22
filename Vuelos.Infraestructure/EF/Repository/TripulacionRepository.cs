@@ -39,7 +39,7 @@ namespace Vuelos.Infraestructure.EF.Repository
         {
             var pedidoList = await _tripulacion
                             .AsNoTracking()
-                            //.Where(x => x.EstadoTripulacion.Contains("ACTIVO"))
+                            .Where(x => x.EstadoTripulacion.Contains("ACTIVO"))
                             .ToListAsync();        
             return pedidoList;
         }

@@ -180,6 +180,7 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Te
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.runtimeconfig.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.runtimeconfig.dev.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\ref\Vuelos.Test.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Castle.Core.dll
@@ -326,4 +327,3 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\Vuelos.Te
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\ref\Vuelos.Test.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\Vuelos.Test.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\Vuelos.Test.genruntimeconfig.cache
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\obj\Debug\net5.0\refint\Vuelos.Test.dll
