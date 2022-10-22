@@ -1,0 +1,15 @@
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\Vuelos.Domain.deps.json
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\ref\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\ShareKernel.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Release\net5.0\ShareKernel.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.csproj.AssemblyReference.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.AssemblyInfoInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.AssemblyInfo.cs
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.csproj.CopyComplete
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\ref\Vuelos.Domain.dll
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Release\net5.0\Vuelos.Domain.pdb

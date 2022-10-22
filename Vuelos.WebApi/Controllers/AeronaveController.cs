@@ -10,7 +10,7 @@ using Vuelos.Application.UseCases.Queries.Aeronave.GetListarAeronaves;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/Aeronave")]
+    [Route("apiVuelo/Aeronave")]
     [ApiController]
     public class AeronaveController : ControllerBase
     {

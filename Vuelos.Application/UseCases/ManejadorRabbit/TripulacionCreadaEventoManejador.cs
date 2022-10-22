@@ -15,8 +15,8 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
     {
         public Task Handle(TripulacionEventoQueue evento)
         {
-            var url = "https://localhost:44365/api/Tripulacion/RegistrarTripulacion";
-            //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarTripulacion";
+            //var url = "https://localhost:44365/apiVuelo/Tripulacion/RegistrarTripulacion";
+            var url = "https://msvuelos.azurewebsites.net/apiVuelo/Tripulacion/RegistrarTripulacion";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";

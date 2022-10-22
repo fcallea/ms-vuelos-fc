@@ -14,7 +14,7 @@ using Vuelos.Application.UseCases.Queries.Vuelos.GetListarDestinosVuelo;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/Vuelo")]
+    [Route("apiVuelo/Vuelo")]
     [ApiController]
     public class VuelosController : ControllerBase
     {

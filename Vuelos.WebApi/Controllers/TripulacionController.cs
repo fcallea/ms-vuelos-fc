@@ -10,7 +10,7 @@ using Vuelos.Application.UseCases.Queries.Tripulacion.GetListarTripulacion;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/Tripulacion")]
+    [Route("apiVuelo/Tripulacion")]
     [ApiController]
     public class TripulacionController : ControllerBase
     {
