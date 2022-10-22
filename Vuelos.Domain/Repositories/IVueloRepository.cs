@@ -15,5 +15,6 @@ namespace Vuelos.Domain.Repositories
         Task SaveItinerarioAsync(ItinerarioVuelo iti);
         Task UpdateItinerarioAsync(ItinerarioVuelo iti);
         Task UpdateAsync(Vuelo obj);
+        Task<ICollection<Vuelo>> getDestinosVueloActiva();
     }
 }

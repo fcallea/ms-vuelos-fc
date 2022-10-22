@@ -5,6 +5,7 @@ using Shared.Rabbitmq.EventoQueue;
 using Shared.Rabbitmq.Implement;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -21,8 +22,8 @@ namespace Vuelos.Application
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddTransient<IVueloService, VueloService>();
-            services.AddTransient<IVueloFactory, VueloFactory>();
 
+            services.AddTransient<IVueloFactory, VueloFactory>();
             services.AddTransient<IAeropuertoFactory, AeropuertoFactory>();
             services.AddTransient<IAeronaveFactory, AeronaveFactory>();
             services.AddTransient<ITripulacionFactory, TripulacionFactory>();

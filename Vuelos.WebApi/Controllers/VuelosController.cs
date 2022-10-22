@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Vuelos.Application.Dto.Vuelo;
 using Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave;
@@ -9,10 +10,11 @@ using Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion;
 using Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo;
 using Vuelos.Application.UseCases.Command.Vuelos.CrearDestinoVuelo;
 using Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById;
+using Vuelos.Application.UseCases.Queries.Vuelos.GetListarDestinosVuelo;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/Vuelo")]
+    [Route("apiVuelo/Vuelo")]
     [ApiController]
     public class VuelosController : ControllerBase
     {
@@ -21,6 +23,12 @@ namespace Vuelos.WebApi.Controllers
         public VuelosController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+        [HttpGet("ListarDestinosVuelo")]
+        public async Task<ActionResult<List<DestinoVueloDto>>> ListarDestinosVuelo()
+        {
+            return await _mediator.Send(new GetListarDestinosVueloQuery());
         }
 
         [Route("{id:guid}")]
@@ -60,6 +68,8 @@ namespace Vuelos.WebApi.Controllers
         }
 
 
+
+/*
         [HttpPost("RegistrarTripulacion")]
         public async Task<IActionResult> GuardarTripulacion([FromBody] RegistrarTripulacionCommand command)
         {
@@ -82,6 +92,6 @@ namespace Vuelos.WebApi.Controllers
 
             return Ok(id);
         }
-
+*/
     }
 }

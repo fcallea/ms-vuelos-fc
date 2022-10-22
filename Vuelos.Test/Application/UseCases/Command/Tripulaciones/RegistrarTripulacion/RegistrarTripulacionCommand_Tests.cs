@@ -13,15 +13,17 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
         [Fact]
         public void RegistrarAeronaveCommand_DataValid()
         {
-            var Id = Guid.NewGuid();
+            var TripulacionGuid = Guid.NewGuid();
             var TripulacionNombre = "tripulantes";
-            var EstadoTripulacion = 1;
+            var TripulacionEstado = 1;
+            var TripulacionId = 0;
 
-            var command = new RegistrarTripulacionCommand(Id, TripulacionNombre, EstadoTripulacion);
+            var command = new RegistrarTripulacionCommand(TripulacionGuid, TripulacionNombre, TripulacionEstado, TripulacionId);
 
-            Assert.Equal(Id, command.Id);
+            Assert.Equal(TripulacionGuid, command.TripulacionGuid);
             Assert.Equal(TripulacionNombre, command.TripulacionNombre);
-            Assert.Equal(EstadoTripulacion, command.EstadoTripulacion);
+            Assert.Equal(TripulacionEstado, command.TripulacionEstado);
+            Assert.Equal(TripulacionId, command.TripulacionId);
         }
 
 
@@ -29,9 +31,10 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
         public void TestConstructor_IsPrivate()
         {
             var command = (RegistrarTripulacionCommand)Activator.CreateInstance(typeof(RegistrarTripulacionCommand), true);
-            Assert.Null((object)command.Id);
+            Assert.Null((object)command.TripulacionGuid);
             Assert.Equal("tripulantes", command.TripulacionNombre);
-            Assert.Equal(0, command.EstadoTripulacion);
+            Assert.Equal(0, command.TripulacionEstado);
+            Assert.Equal(0, command.TripulacionId);
         }
     }
 }

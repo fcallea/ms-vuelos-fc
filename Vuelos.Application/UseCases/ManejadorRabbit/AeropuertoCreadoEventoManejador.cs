@@ -15,8 +15,8 @@ namespace Vuelos.Application.UseCases.ManejadorRabbit
     {
         public Task Handle(AeropuertoCreadoQueue evento)
         {
-            var url = "https://localhost:44365/api/Aeropuerto";
-            //var url = "https://aeronlineaserviciosapivuelos.azurewebsites.net/api/Vuelo/GuardarAeropuerto";
+            //var url = "https://localhost:44365/apiVuelo/Aeropuerto";
+            var url = "https://msvuelos.azurewebsites.net/apiVuelo/Aeropuerto";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Accept = "application/json";
             request.ContentType = "application/json";

@@ -34,5 +34,15 @@ namespace Vuelos.Infraestructure.EF.Repository
             _tripulacion.Update(obj);
             return Task.CompletedTask;
         }
+
+        public async Task<ICollection<Tripulacion>> getTripulacionActiva()
+        {
+            var pedidoList = await _tripulacion
+                            .AsNoTracking()
+                            .Where(x => x.EstadoTripulacion.Contains("ACTIVO"))
+                            .ToListAsync();        
+            return pedidoList;
+        }
+
     }
 }

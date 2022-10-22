@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Vuelos.Domain/1.0.0": {
+        "dependencies": {
+          "ShareKernel": "1.0.0"
+        },
+        "runtime": {
+          "Vuelos.Domain.dll": {}
+        }
+      },
+      "ShareKernel/1.0.0": {
+        "runtime": {
+          "ShareKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vuelos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShareKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

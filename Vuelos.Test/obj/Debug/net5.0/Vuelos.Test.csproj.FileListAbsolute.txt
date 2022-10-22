@@ -182,6 +182,7 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Te
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\ref\Vuelos.Test.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Vuelos.Test.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\Castle.Core.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\MediatR.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Test\bin\Debug\net5.0\MediatR.Contracts.dll

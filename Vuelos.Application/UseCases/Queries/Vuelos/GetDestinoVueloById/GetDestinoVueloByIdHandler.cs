@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -13,6 +14,7 @@ using Vuelos.Domain.Repositories;
 
 namespace Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById
 {
+    [ExcludeFromCodeCoverage]
     public class GetDestinoVueloByIdHandler : IRequestHandler<GetDestinoVueloByIdQuery, DestinoVueloDto>
     {
         private readonly IVueloRepository _destinoVueloRepository;

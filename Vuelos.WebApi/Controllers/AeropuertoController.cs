@@ -8,7 +8,7 @@ using Vuelos.Application.UseCases.Command.Aeropuertos.RegistrarAeropuerto;
 
 namespace Vuelos.WebApi.Controllers
 {
-    [Route("api/Aeropuerto")]
+    [Route("apiVuelo/Aeropuerto")]
     [ApiController]
     public class AeropuertoController : ControllerBase
     {

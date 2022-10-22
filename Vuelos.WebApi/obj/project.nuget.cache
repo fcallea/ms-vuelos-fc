@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+8rgLSkKjMnyoGKiyTTPORHBHkL6kgJKxBQ3azp1g2LKx0VKlwq9BUF/hpF3284IrIWPQWsbvR/mtxpRSzVvlQ==",
+  "dgSpecHash": "7Ti2SlcqPywKAbvG/pxE7NftVHyNaFx5HASh0W/fK8ufR3xMIAfp2Icg+VMoynMLe/H8jxNDvfHssok3T4nnrA==",
   "success": true,
   "projectFilePath": "D:\\DIPLOMADO\\back-end-vuelos\\ms-vuelos-fc\\Vuelos.WebApi\\Vuelos.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JIMENA\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\JIMENA\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

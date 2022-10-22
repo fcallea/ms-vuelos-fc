@@ -28,15 +28,15 @@ namespace Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion
         }
         public async Task<Guid> Handle(RegistrarTripulacionCommand request, CancellationToken cancellationToken)
         {
-            var Tripulacion = await _tripulacionRepository.FindByIdAsync(request.Id);
+            var Tripulacion = await _tripulacionRepository.FindByIdAsync(request.TripulacionGuid);
 
             if (Tripulacion == null)
             {
-                Guid IdTripulacion = request.Id;
+                Guid IdTripulacion = request.TripulacionGuid;
                 string TripulacionNombre = request.TripulacionNombre;
-                string EstadoTripulacion = "ACTIVO";//request.EstadoTripulacion;
+                string txtEstadoTripulacion = "ACTIVO";//request.EstadoTripulacion;
 
-                Tripulacion = _tripulacionFactory.RegistrarTripulacion(IdTripulacion, TripulacionNombre, EstadoTripulacion);
+                Tripulacion = _tripulacionFactory.RegistrarTripulacion(IdTripulacion, TripulacionNombre, txtEstadoTripulacion);
                 await _tripulacionRepository.CreateAsync(Tripulacion);
 
                 await _unitOfWork.Commit();

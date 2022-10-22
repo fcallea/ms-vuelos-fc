@@ -54,12 +54,18 @@ namespace Vuelos.Test.WebApi.Controller
             var res3 = controler.AsignarVuelo(req3);
             Assert.NotNull(res3);
 
-            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), "Tripulantes", 1);
-            var res4 = controler.GuardarTripulacion(req4);
+            var mediator4 = new Mock<IMediator>();
+            TripulacionController controler4 = new TripulacionController(mediator4.Object);
+
+            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), "Tripulantes", 1, 0);
+            var res4 = controler4.GuardarTripulacion(req4);
             Assert.NotNull(res4);
 
+            var mediator5 = new Mock<IMediator>();
+            AeronaveController controler5 = new AeronaveController(mediator5.Object);
+
             var req5 = new RegistrarAeronaveCommand(Guid.NewGuid(), 30, "Operativo","Marca","Modelo","Comentario");
-            var res5 = controler.GuardarAeronave(req5);
+            var res5 = controler5.GuardarAeronave(req5);
             Assert.NotNull(res5);
         }
     }

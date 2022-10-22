@@ -34,5 +34,13 @@ namespace Vuelos.Infraestructure.EF.Repository
             _aeronave.Update(obj);
             return Task.CompletedTask;
         }
+        public async Task<ICollection<Aeronave>> getAeronaveActiva()
+        {
+            var pedidoList = await _aeronave
+                            .AsNoTracking()
+                            .Where(x => x.EstadoAeronave.Contains("Operativo"))
+                            .ToListAsync();
+            return pedidoList;
+        }
     }
 }
