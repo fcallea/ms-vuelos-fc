@@ -57,7 +57,7 @@ namespace Vuelos.Test.WebApi.Controller
             var mediator4 = new Mock<IMediator>();
             TripulacionController controler4 = new TripulacionController(mediator4.Object);
 
-            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), "Tripulantes", 1);
+            var req4 = new RegistrarTripulacionCommand(Guid.NewGuid(), "Tripulantes", 1, 0);
             var res4 = controler4.GuardarTripulacion(req4);
             Assert.NotNull(res4);
 

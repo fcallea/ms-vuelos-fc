@@ -23,6 +23,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
 
         private Guid Id = Guid.NewGuid();
         private int EstadoTripulacion = 1;
+        private int TripulacionId = 1;
         private string TripulacionNombre = "Tripulantes";
         private string TxtEstadoTripulacion = "PENDIENTE";
         private Tripulacion tripulacionTest;
@@ -50,7 +51,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
                 tripulacionRepository.Object
             );
             var objRequest = new RegistrarTripulacionCommand(
-               Id, TripulacionNombre, EstadoTripulacion
+               Id, TripulacionNombre, EstadoTripulacion, TripulacionId
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);
@@ -70,7 +71,7 @@ namespace Vuelos.Test.Application.UseCases.Command.Tripulaciones.RegistrarTripul
                 tripulacionRepository.Object
             );
             var objRequest = new RegistrarTripulacionCommand(
-               Id, TripulacionNombre, EstadoTripulacion
+               Id, TripulacionNombre, EstadoTripulacion, TripulacionId
            );
             var tcs = new CancellationTokenSource(1000);
             var result = objHandler.Handle(objRequest, tcs.Token);

@@ -19,6 +19,9 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
     public class AsignarVueloHandler : IRequestHandler<AsignarVueloCommand, Guid>
     {
         private readonly IVueloRepository _vueloRepository;
+        //private readonly ITripulacionRepository _tripulacionRepository;
+        //private readonly IAeronaveRepository _aeronaveRepository;
+        //private readonly IAeropuertoRepository _aeropuertoRepository;
         private readonly IVueloService _vueloService;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IVueloFactory _vueloFactory;
@@ -29,12 +32,18 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
               IUnitOfWork unitOfWork
             , IVueloFactory vueloFactory
             , IVueloRepository vueloRepository
+            //, ITripulacionRepository tripulacionRepository
+            //, IAeronaveRepository aeronaveRepository
+            //, IAeropuertoRepository aeropuertoRepository
             , IVueloService vueloService
             , ILogger<AsignarVueloCommand> logger
             , IRabbitEventBus eventBus
              )
         {
             _vueloRepository = vueloRepository;
+            //_tripulacionRepository = tripulacionRepository;
+            //_aeronaveRepository = aeronaveRepository;
+            //_aeropuertoRepository = aeropuertoRepository;
             _vueloService = vueloService;
             _unitOfWork = unitOfWork;
             _vueloFactory = vueloFactory;
@@ -52,6 +61,11 @@ namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
                 var itinerarioBD = objVuelo.ListaItinerariosVuelo.FirstOrDefault(x => x.IdTripulacion == itinerario.IdTripulacion && x.IdAeronave == itinerario.IdAeronave);
                 if (esNuevo)
                 {
+                    /*
+                    Aeropuerto aeropuertoOrigen = await _aeropuertoRepository.FindByIdAsync(objVuelo.IdAeropuertoOrigen);
+                    Aeropuerto aeropuertoDestino = await _aeropuertoRepository.FindByIdAsync(objVuelo.IdAeropuertoOrigen);
+                    */
+
                     await _vueloRepository.SaveItinerarioAsync(objItinerario);
                     _eventBus.Publish(new VueloAsignadoAeronaveQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
                     _eventBus.Publish(new VueloAsignadoTripulacionQueue(objItinerario.Id, objItinerario.IdTripulacion, objItinerario.IdAeronave));
