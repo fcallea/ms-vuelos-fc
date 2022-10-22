@@ -1,199 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7814" branch-rate="0.8437" version="1.9" timestamp="1666244405" lines-covered="522" lines-valid="668" branches-covered="81" branches-valid="96">
+<coverage line-rate="0.88" branch-rate="0.9204000000000001" version="1.9" timestamp="1666442937" lines-covered="550" lines-valid="625" branches-covered="81" branches-valid="88">
   <sources>
     <source>D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\</source>
   </sources>
   <packages>
-    <package name="Vuelos.Application" line-rate="0.7669" branch-rate="0.9229999999999999" complexity="136">
+    <package name="Vuelos.Application" line-rate="0.9309999999999999" branch-rate="1" complexity="122">
       <classes>
         <class name="Vuelos.Application.Extensions" filename="Vuelos.Application\Extensions.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="AddApplication" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="0" branch="False" />
                 <line number="22" hits="0" branch="False" />
                 <line number="23" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
                 <line number="26" hits="0" branch="False" />
                 <line number="27" hits="0" branch="False" />
                 <line number="28" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
                 <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
               </lines>
             </method>
             <method name="AddRabbitMq" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="0" branch="False" />
-                <line number="42" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
                 <line number="49" hits="0" branch="False" />
                 <line number="50" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="21" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
             <line number="26" hits="0" branch="False" />
             <line number="27" hits="0" branch="False" />
             <line number="28" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
             <line number="33" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="42" hits="0" branch="False" />
-            <line number="48" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
             <line number="49" hits="0" branch="False" />
             <line number="50" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.ExtensionsApp" filename="Vuelos.Application\ExtensionsApp.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="RabbitMQConsumer" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="17" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdHandler" filename="Vuelos.Application\UseCases\Queries\Vuelos\GetDestinoVueloById\GetDestinoVueloByIdHandler.cs" line-rate="0" branch-rate="1" complexity="1">
-          <methods>
-            <method name=".ctor" signature="(Vuelos.Domain.Repositories.IVueloRepository,Vuelos.Domain.Repositories.IAeropuertoRepository,Microsoft.Extensions.Logging.ILogger`1&lt;Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdQuery&gt;)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
                 <line number="25" hits="0" branch="False" />
                 <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
             <line number="25" hits="0" branch="False" />
             <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdHandler/&lt;Handle&gt;d__4" filename="Vuelos.Application\UseCases\Queries\Vuelos\GetDestinoVueloById\GetDestinoVueloByIdHandler.cs" line-rate="0" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="30" hits="0" branch="False" />
-                <line number="31" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
-                <line number="36" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="42" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
-                <line number="45" hits="0" branch="False" />
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
-                <line number="60" hits="0" branch="False" />
-                <line number="61" hits="0" branch="False" />
-                <line number="62" hits="0" branch="False" />
-                <line number="63" hits="0" branch="False" />
-                <line number="64" hits="0" branch="False" />
-                <line number="66" hits="0" branch="False" />
-                <line number="67" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
             <line number="30" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
             <line number="33" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
-            <line number="36" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="42" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
-            <line number="45" hits="0" branch="False" />
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
-            <line number="60" hits="0" branch="False" />
-            <line number="61" hits="0" branch="False" />
-            <line number="62" hits="0" branch="False" />
-            <line number="63" hits="0" branch="False" />
-            <line number="64" hits="0" branch="False" />
-            <line number="66" hits="0" branch="False" />
-            <line number="67" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.Queries.Vuelos.GetDestinoVueloById.GetDestinoVueloByIdQuery" filename="Vuelos.Application\UseCases\Queries\Vuelos\GetDestinoVueloById\GetDestinoVueloByIdQuery.cs" line-rate="0.1666" branch-rate="1" complexity="3">
+        <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeronaveAgregadaEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\AeronaveAgregadaEventoManejador.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="(System.Guid)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="15" hits="0" branch="False" />
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="20" hits="3" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="20" hits="3" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeronaveAgregadaEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\AeronaveAgregadaEventoManejador.cs" line-rate="0.875" branch-rate="1" complexity="1">
-          <methods>
-            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.AeronaveAgregadaEventoQueue)" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.AeronaveAgregadaEventoQueue)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
                 <line number="20" hits="1" branch="False" />
                 <line number="21" hits="1" branch="False" />
                 <line number="22" hits="1" branch="False" />
@@ -206,14 +98,14 @@
                 <line number="31" hits="1" branch="False" />
                 <line number="32" hits="1" branch="False" />
                 <line number="35" hits="1" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
             <line number="20" hits="1" branch="False" />
             <line number="21" hits="1" branch="False" />
             <line number="22" hits="1" branch="False" />
@@ -226,16 +118,16 @@
             <line number="31" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeropuertoCreadoEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\AeropuertoCreadoEventoManejador.cs" line-rate="0.875" branch-rate="1" complexity="1">
+        <class name="Vuelos.Application.UseCases.ManejadorRabbit.AeropuertoCreadoEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\AeropuertoCreadoEventoManejador.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.AeropuertoCreadoQueue)" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.AeropuertoCreadoQueue)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
                 <line number="20" hits="1" branch="False" />
                 <line number="21" hits="1" branch="False" />
                 <line number="22" hits="1" branch="False" />
@@ -248,14 +140,14 @@
                 <line number="31" hits="1" branch="False" />
                 <line number="32" hits="1" branch="False" />
                 <line number="35" hits="1" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
             <line number="20" hits="1" branch="False" />
             <line number="21" hits="1" branch="False" />
             <line number="22" hits="1" branch="False" />
@@ -268,16 +160,16 @@
             <line number="31" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.ManejadorRabbit.TripulacionCreadaEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\TripulacionCreadaEventoManejador.cs" line-rate="0.875" branch-rate="1" complexity="1">
+        <class name="Vuelos.Application.UseCases.ManejadorRabbit.TripulacionCreadaEventoManejador" filename="Vuelos.Application\UseCases\ManejadorRabbit\TripulacionCreadaEventoManejador.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.TripulacionEventoQueue)" line-rate="0.875" branch-rate="1" complexity="1">
+            <method name="Handle" signature="(Shared.Rabbitmq.EventoQueue.TripulacionEventoQueue)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
                 <line number="20" hits="1" branch="False" />
                 <line number="21" hits="1" branch="False" />
                 <line number="22" hits="1" branch="False" />
@@ -290,14 +182,14 @@
                 <line number="31" hits="1" branch="False" />
                 <line number="32" hits="1" branch="False" />
                 <line number="35" hits="1" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
             <line number="20" hits="1" branch="False" />
             <line number="21" hits="1" branch="False" />
             <line number="22" hits="1" branch="False" />
@@ -310,8 +202,8 @@
             <line number="31" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.UseCases.Command.Vuelos.CrearVuelo.CrearDestinoVueloHandler" filename="Vuelos.Application\UseCases\Command\Vuelos\CrearDestinoVuelo\CrearDestinoVueloHandler.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -480,174 +372,62 @@
             <line number="22" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloHandler" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloHandler.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion.RegistrarTripulacionCommand" filename="Vuelos.Application\UseCases\Command\Tripulaciones\RegistrarTripulacion\RegistrarTripulacionCommand.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
-            <method name=".ctor" signature="(Vuelos.Domain.Repositories.IUnitOfWork,Vuelos.Domain.Factories.IVueloFactory,Vuelos.Domain.Repositories.IVueloRepository,Vuelos.Application.Services.IVueloService,Microsoft.Extensions.Logging.ILogger`1&lt;Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloCommand&gt;,Shared.Rabbitmq.BusRabbit.IRabbitEventBus)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
-                <line number="36" hits="0" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="42" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="28" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
-            <line number="36" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="42" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloHandler/&lt;&gt;c__DisplayClass7_0" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloHandler.cs" line-rate="0" branch-rate="0" complexity="2">
-          <methods>
-            <method name="&lt;Handle&gt;b__0" signature="(Vuelos.Domain.Model.Vuelos.ItinerarioVuelo)" line-rate="0" branch-rate="0" complexity="2">
-              <lines>
-                <line number="52" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="22" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="52" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="22" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo.AsignarVueloHandler/&lt;Handle&gt;d__7" filename="Vuelos.Application\UseCases\Command\Vuelos\AsignarVuelo\AsignarVueloHandler.cs" line-rate="0" branch-rate="0" complexity="4">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
-              <lines>
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
-                <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="884" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="49" hits="0" branch="False" />
-                <line number="50" hits="0" branch="False" />
-                <line number="51" hits="0" branch="False" />
-                <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="445" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="54" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
-                <line number="57" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="0" branch="False" />
-                <line number="60" hits="0" branch="False" />
-                <line number="62" hits="0" branch="False" />
-                <line number="63" hits="0" branch="False" />
-                <line number="64" hits="0" branch="False" />
-                <line number="65" hits="0" branch="False" />
-                <line number="69" hits="0" branch="False" />
-                <line number="71" hits="0" branch="False" />
-                <line number="72" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
-            <line number="48" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="884" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="49" hits="0" branch="False" />
-            <line number="50" hits="0" branch="False" />
-            <line number="51" hits="0" branch="False" />
-            <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="445" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="54" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
-            <line number="57" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="0" branch="False" />
-            <line number="60" hits="0" branch="False" />
-            <line number="62" hits="0" branch="False" />
-            <line number="63" hits="0" branch="False" />
-            <line number="64" hits="0" branch="False" />
-            <line number="65" hits="0" branch="False" />
-            <line number="69" hits="0" branch="False" />
-            <line number="71" hits="0" branch="False" />
-            <line number="72" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion.RegistrarTripulacionCommand" filename="Vuelos.Application\UseCases\Command\Tripulaciones\RegistrarTripulacion\RegistrarTripulacionCommand.cs" line-rate="1" branch-rate="1" complexity="4">
-          <methods>
-            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_TripulacionGuid" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="12" hits="10" branch="False" />
               </lines>
             </method>
-            <method name="get_EstadoTripulacion" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_TripulacionNombre" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="5" branch="False" />
+                <line number="13" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TripulacionEstado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TripulacionId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="5" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="1" branch="False" />
-                <line number="16" hits="1" branch="False" />
                 <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.Guid,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(System.Guid,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="4" branch="False" />
-                <line number="19" hits="4" branch="False" />
-                <line number="20" hits="4" branch="False" />
                 <line number="21" hits="4" branch="False" />
                 <line number="22" hits="4" branch="False" />
+                <line number="23" hits="4" branch="False" />
+                <line number="24" hits="4" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="12" hits="10" branch="False" />
-            <line number="13" hits="5" branch="False" />
-            <line number="15" hits="1" branch="False" />
-            <line number="16" hits="1" branch="False" />
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
             <line number="17" hits="1" branch="False" />
-            <line number="18" hits="4" branch="False" />
-            <line number="19" hits="4" branch="False" />
-            <line number="20" hits="4" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
             <line number="21" hits="4" branch="False" />
             <line number="22" hits="4" branch="False" />
+            <line number="23" hits="4" branch="False" />
+            <line number="24" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.UseCases.Command.Tripulaciones.RegistrarTripulacion.RegistrarTripulacionHandler" filename="Vuelos.Application\UseCases\Command\Tripulaciones\RegistrarTripulacion\RegistrarTripulacionHandler.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -694,12 +474,13 @@
                 <line number="34" hits="2" branch="False" />
                 <line number="35" hits="2" branch="False" />
                 <line number="36" hits="2" branch="False" />
-                <line number="38" hits="2" branch="False" />
+                <line number="37" hits="2" branch="False" />
                 <line number="39" hits="2" branch="False" />
-                <line number="41" hits="2" branch="False" />
+                <line number="40" hits="2" branch="False" />
                 <line number="42" hits="2" branch="False" />
                 <line number="43" hits="2" branch="False" />
-                <line number="44" hits="1" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
@@ -714,12 +495,13 @@
             <line number="34" hits="2" branch="False" />
             <line number="35" hits="2" branch="False" />
             <line number="36" hits="2" branch="False" />
-            <line number="38" hits="2" branch="False" />
+            <line number="37" hits="2" branch="False" />
             <line number="39" hits="2" branch="False" />
-            <line number="41" hits="2" branch="False" />
+            <line number="40" hits="2" branch="False" />
             <line number="42" hits="2" branch="False" />
             <line number="43" hits="2" branch="False" />
-            <line number="44" hits="1" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.UseCases.Command.Aeropuertos.RegistrarAeropuerto.RegistrarAeropuertoCommand" filename="Vuelos.Application\UseCases\Command\Aeropuertos\RegistrarAeropuerto\RegistrarAeropuertoCommand.cs" line-rate="1" branch-rate="1" complexity="8">
@@ -876,7 +658,7 @@
             <line number="48" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave.RegistrarAeronaveCommand" filename="Vuelos.Application\UseCases\Command\Aeronaves\RegistrarAeronave\RegistrarAeronaveCommand.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave.RegistrarAeronaveCommand" filename="Vuelos.Application\UseCases\Command\Aeronaves\RegistrarAeronave\RegistrarAeronaveCommand.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -893,21 +675,39 @@
                 <line number="14" hits="7" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Marca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="1" branch="False" />
-                <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
+                <line number="15" hits="7" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.Guid,System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Modelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="4" branch="False" />
-                <line number="20" hits="4" branch="False" />
-                <line number="21" hits="4" branch="False" />
+                <line number="16" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Comentario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Guid,System.Int32,System.String,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
                 <line number="22" hits="4" branch="False" />
                 <line number="23" hits="4" branch="False" />
                 <line number="24" hits="4" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
@@ -915,15 +715,21 @@
             <line number="12" hits="10" branch="False" />
             <line number="13" hits="7" branch="False" />
             <line number="14" hits="7" branch="False" />
-            <line number="16" hits="1" branch="False" />
-            <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
-            <line number="19" hits="4" branch="False" />
-            <line number="20" hits="4" branch="False" />
-            <line number="21" hits="4" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
+            <line number="17" hits="7" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
             <line number="22" hits="4" branch="False" />
             <line number="23" hits="4" branch="False" />
             <line number="24" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.UseCases.Command.Aeronaves.RegistrarAeronave.RegistrarAeronaveHandler" filename="Vuelos.Application\UseCases\Command\Aeronaves\RegistrarAeronave\RegistrarAeronaveHandler.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -971,12 +777,15 @@
                 <line number="35" hits="2" branch="False" />
                 <line number="36" hits="2" branch="False" />
                 <line number="37" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
                 <line number="39" hits="2" branch="False" />
                 <line number="40" hits="2" branch="False" />
                 <line number="42" hits="2" branch="False" />
                 <line number="43" hits="2" branch="False" />
-                <line number="44" hits="2" branch="False" />
-                <line number="45" hits="1" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
@@ -992,12 +801,15 @@
             <line number="35" hits="2" branch="False" />
             <line number="36" hits="2" branch="False" />
             <line number="37" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
             <line number="39" hits="2" branch="False" />
             <line number="40" hits="2" branch="False" />
             <line number="42" hits="2" branch="False" />
             <line number="43" hits="2" branch="False" />
-            <line number="44" hits="2" branch="False" />
-            <line number="45" hits="1" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Application.Services.VueloService" filename="Vuelos.Application\Services\VueloService.cs" line-rate="1" branch-rate="1" complexity="64">
@@ -1514,54 +1326,6 @@
             <line number="153" hits="12" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Application.Dto.Vuelo.DestinoVueloDto" filename="Vuelos.Application\Dto\Vuelo\DestinoVueloDto.cs" line-rate="1" branch-rate="1" complexity="7">
-          <methods>
-            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_DepartamentoOrigen" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_IdAeropuertoOrigen" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_NombreAeropuertoOrigen" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="14" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_DepartamentoDestino" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="15" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_IdAeropuertoDestino" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="16" hits="2" branch="False" />
-              </lines>
-            </method>
-            <method name="get_NombreAeropuertoDestino" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="17" hits="2" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="11" hits="2" branch="False" />
-            <line number="12" hits="2" branch="False" />
-            <line number="13" hits="2" branch="False" />
-            <line number="14" hits="2" branch="False" />
-            <line number="15" hits="2" branch="False" />
-            <line number="16" hits="2" branch="False" />
-            <line number="17" hits="2" branch="False" />
-          </lines>
-        </class>
         <class name="Vuelos.Application.Dto.Vuelo.ItinerarioVueloDto" filename="Vuelos.Application\Dto\Vuelo\ItinerarioVueloDto.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_IdTripulacion" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1636,7 +1400,7 @@
         </class>
       </classes>
     </package>
-    <package name="Vuelos.Domain" line-rate="1" branch-rate="0.75" complexity="53">
+    <package name="Vuelos.Domain" line-rate="1" branch-rate="0.75" complexity="57">
       <classes>
         <class name="Vuelos.Domain.Model.Vuelos.ItinerarioVuelo" filename="Vuelos.Domain\Model\Vuelos\ItinerarioVuelo.cs" line-rate="1" branch-rate="1" complexity="15">
           <methods>
@@ -1930,30 +1694,38 @@
             <line number="44" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Domain.Model.Tripulaciones.Tripulacion" filename="Vuelos.Domain\Model\Tripulaciones\Tripulacion.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="Vuelos.Domain.Model.Tripulaciones.Tripulacion" filename="Vuelos.Domain\Model\Tripulaciones\Tripulacion.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_EstadoTripulacion" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="13" hits="2" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.Guid,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_TripulacionNombre" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Guid,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
                 <line number="19" hits="2" branch="False" />
                 <line number="20" hits="2" branch="False" />
                 <line number="21" hits="2" branch="False" />
                 <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="13" hits="2" branch="False" />
-            <line number="18" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
             <line number="19" hits="2" branch="False" />
             <line number="20" hits="2" branch="False" />
             <line number="21" hits="2" branch="False" />
             <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Domain.Model.Aeropuertos.Aeropuerto" filename="Vuelos.Domain\Model\Aeropuertos\Aeropuerto.cs" line-rate="1" branch-rate="1" complexity="6">
@@ -2014,7 +1786,7 @@
             <line number="31" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.Domain.Model.Aeronaves.Aeronave" filename="Vuelos.Domain\Model\Aeronaves\Aeronave.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="Vuelos.Domain.Model.Aeronaves.Aeronave" filename="Vuelos.Domain\Model\Aeronaves\Aeronave.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="get_NroAsientos" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -2026,31 +1798,55 @@
                 <line number="14" hits="2" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(System.Guid,System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Marca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="2" branch="False" />
-                <line number="20" hits="2" branch="False" />
-                <line number="21" hits="2" branch="False" />
-                <line number="22" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Modelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Comentario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Guid,System.Int32,System.String,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
                 <line number="23" hits="2" branch="False" />
                 <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="13" hits="2" branch="False" />
             <line number="14" hits="2" branch="False" />
-            <line number="19" hits="2" branch="False" />
-            <line number="20" hits="2" branch="False" />
-            <line number="21" hits="2" branch="False" />
-            <line number="22" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="17" hits="2" branch="False" />
             <line number="23" hits="2" branch="False" />
             <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.Domain.Factories.AeronaveFactory" filename="Vuelos.Domain\Factories\AeronaveFactory.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="RegistrarAeronave" signature="(System.Guid,System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="RegistrarAeronave" signature="(System.Guid,System.Int32,System.String,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="13" hits="2" branch="False" />
                 <line number="14" hits="2" branch="False" />
@@ -2082,7 +1878,7 @@
         </class>
         <class name="Vuelos.Domain.Factories.TripulacionFactory" filename="Vuelos.Domain\Factories\TripulacionFactory.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="RegistrarTripulacion" signature="(System.Guid,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="RegistrarTripulacion" signature="(System.Guid,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="13" hits="2" branch="False" />
                 <line number="14" hits="2" branch="False" />
@@ -2218,124 +2014,174 @@
         </class>
       </classes>
     </package>
-    <package name="Vuelos.WebApi" line-rate="0.46909999999999996" branch-rate="0.4285" complexity="21">
+    <package name="Vuelos.WebApi" line-rate="0.4842" branch-rate="0.5" complexity="25">
       <classes>
         <class name="Vuelos.WebApi.Program" filename="Vuelos.WebApi\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="False" />
                 <line number="16" hits="0" branch="False" />
                 <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
               </lines>
             </method>
             <method name="CreateHostBuilder" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="0" branch="False" />
                 <line number="21" hits="0" branch="False" />
                 <line number="22" hits="0" branch="False" />
                 <line number="23" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="0" branch="False" />
             <line number="16" hits="0" branch="False" />
             <line number="17" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
             <line number="21" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.WebApi.Startup" filename="Vuelos.WebApi\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
+        <class name="Vuelos.WebApi.Startup" filename="Vuelos.WebApi\Startup.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
               </lines>
             </method>
             <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="30" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
                 <line number="36" hits="0" branch="False" />
                 <line number="37" hits="0" branch="False" />
                 <line number="38" hits="0" branch="False" />
                 <line number="39" hits="0" branch="False" />
                 <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="44" hits="0" branch="False" />
-                <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="9" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
                 <line number="48" hits="0" branch="False" />
                 <line number="49" hits="0" branch="False" />
                 <line number="50" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
-                <line number="54" hits="0" branch="False" />
-                <line number="56" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
                 <line number="59" hits="0" branch="False" />
                 <line number="60" hits="0" branch="False" />
                 <line number="61" hits="0" branch="False" />
-                <line number="67" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
                 <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="0" branch="False" />
                 <line number="22" hits="0" branch="False" />
                 <line number="23" hits="0" branch="False" />
                 <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="26" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
             <line number="36" hits="0" branch="False" />
             <line number="37" hits="0" branch="False" />
             <line number="38" hits="0" branch="False" />
             <line number="39" hits="0" branch="False" />
             <line number="40" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
-            <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="9" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
             <line number="48" hits="0" branch="False" />
             <line number="49" hits="0" branch="False" />
             <line number="50" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
-            <line number="54" hits="0" branch="False" />
-            <line number="56" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
             <line number="59" hits="0" branch="False" />
             <line number="60" hits="0" branch="False" />
             <line number="61" hits="0" branch="False" />
-            <line number="67" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
             <line number="68" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.AeronaveController" filename="Vuelos.WebApi\Controllers\AeronaveController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(MediatR.IMediator)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.AeronaveController/&lt;GuardarAeronave&gt;d__2" filename="Vuelos.WebApi\Controllers\AeronaveController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="186" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="186" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.AeronaveController/&lt;ListarAeronaves&gt;d__3" filename="Vuelos.WebApi\Controllers\AeronaveController.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
           </lines>
         </class>
         <class name="Vuelos.WebApi.Controllers.AeropuertoController" filename="Vuelos.WebApi\Controllers\AeropuertoController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -2386,172 +2232,192 @@
             <line number="31" hits="2" branch="False" />
           </lines>
         </class>
+        <class name="Vuelos.WebApi.Controllers.TripulacionController" filename="Vuelos.WebApi\Controllers\TripulacionController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(MediatR.IMediator)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.TripulacionController/&lt;GuardarTripulacion&gt;d__2" filename="Vuelos.WebApi\Controllers\TripulacionController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="186" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="186" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.TripulacionController/&lt;ListarTripulacion&gt;d__3" filename="Vuelos.WebApi\Controllers\TripulacionController.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
         <class name="Vuelos.WebApi.Controllers.VuelosController" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(MediatR.IMediator)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="1" branch="False" />
-                <line number="22" hits="1" branch="False" />
                 <line number="23" hits="1" branch="False" />
                 <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="21" hits="1" branch="False" />
-            <line number="22" hits="1" branch="False" />
             <line number="23" hits="1" branch="False" />
             <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;AsignarVuelo&gt;d__3" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;AsignarVuelo&gt;d__5" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="40" hits="1" branch="False" />
-                <line number="41" hits="1" branch="False" />
-                <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="64" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="186" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="44" hits="1" branch="False" />
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="40" hits="1" branch="False" />
-            <line number="41" hits="1" branch="False" />
-            <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="64" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="186" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="44" hits="1" branch="False" />
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;Create&gt;d__2" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;Create&gt;d__4" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="28" hits="1" branch="False" />
-                <line number="29" hits="1" branch="False" />
-                <line number="31" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="186" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="32" hits="1" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="35" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="28" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
-            <line number="31" hits="1" branch="True" condition-coverage="50% (1/2)">
-              <conditions>
-                <condition number="186" type="jump" coverage="50%" />
-              </conditions>
-            </line>
-            <line number="32" hits="1" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="35" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;GetPedidoById&gt;d__4" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
-              <lines>
-                <line number="52" hits="1" branch="False" />
                 <line number="53" hits="1" branch="False" />
-                <line number="55" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="186" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;GetPedidoById&gt;d__3" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="174" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="56" hits="1" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="52" hits="1" branch="False" />
-            <line number="53" hits="1" branch="False" />
-            <line number="55" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="174" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="56" hits="1" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;GuardarAeronave&gt;d__6" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;ListarDestinosVuelo&gt;d__2" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="77" hits="1" branch="False" />
-                <line number="78" hits="1" branch="False" />
-                <line number="80" hits="1" branch="True" condition-coverage="50% (1/2)">
-                  <conditions>
-                    <condition number="186" type="jump" coverage="50%" />
-                  </conditions>
-                </line>
-                <line number="81" hits="1" branch="False" />
-                <line number="83" hits="0" branch="False" />
-                <line number="84" hits="1" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="77" hits="1" branch="False" />
-            <line number="78" hits="1" branch="False" />
-            <line number="80" hits="1" branch="True" condition-coverage="50% (1/2)">
-              <conditions>
-                <condition number="186" type="jump" coverage="50%" />
-              </conditions>
-            </line>
-            <line number="81" hits="1" branch="False" />
-            <line number="83" hits="0" branch="False" />
-            <line number="84" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="Vuelos.WebApi.Controllers.VuelosController/&lt;GuardarTripulacion&gt;d__5" filename="Vuelos.WebApi\Controllers\VuelosController.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
-              <lines>
-                <line number="65" hits="1" branch="False" />
-                <line number="66" hits="1" branch="False" />
-                <line number="68" hits="1" branch="True" condition-coverage="50% (1/2)">
-                  <conditions>
-                    <condition number="186" type="jump" coverage="50%" />
-                  </conditions>
-                </line>
-                <line number="69" hits="1" branch="False" />
-                <line number="71" hits="0" branch="False" />
-                <line number="72" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="65" hits="1" branch="False" />
-            <line number="66" hits="1" branch="False" />
-            <line number="68" hits="1" branch="True" condition-coverage="50% (1/2)">
-              <conditions>
-                <condition number="186" type="jump" coverage="50%" />
-              </conditions>
-            </line>
-            <line number="69" hits="1" branch="False" />
-            <line number="71" hits="0" branch="False" />
-            <line number="72" hits="1" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
           </lines>
         </class>
       </classes>

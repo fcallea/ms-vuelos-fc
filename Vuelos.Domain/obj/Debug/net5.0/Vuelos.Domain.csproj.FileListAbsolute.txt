@@ -75,7 +75,6 @@ D:\API\Proyectos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\ref\Vuelos.Domain.d
 D:\API\Proyectos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.deps.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.dll
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\ref\Vuelos.Domain.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\Vuelos.Domain.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\bin\Debug\net5.0\ShareKernel.pdb
@@ -88,3 +87,4 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\Vuelos.
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\ref\Vuelos.Domain.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\Vuelos.Domain.pdb
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Domain\obj\Debug\net5.0\refint\Vuelos.Domain.dll

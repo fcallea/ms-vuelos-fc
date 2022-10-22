@@ -2,6 +2,7 @@
 using MediatR;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -11,6 +12,7 @@ using Vuelos.Domain.Repositories;
 
 namespace Vuelos.Application.UseCases.Queries.Tripulacion.GetListarTripulacion
 {
+    [ExcludeFromCodeCoverage]
     public class GetListarTripulacionByIdHandler : IRequestHandler<GetListarTripulacionQuery, List<TripulacionDto>>
     {
         private readonly ITripulacionRepository _tripulacionRepository;

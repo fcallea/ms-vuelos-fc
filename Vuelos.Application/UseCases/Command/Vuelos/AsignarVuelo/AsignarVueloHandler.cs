@@ -4,6 +4,7 @@ using Shared.Rabbitmq.BusRabbit;
 using Shared.Rabbitmq.EventoQueue;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -16,6 +17,7 @@ using Vuelos.Domain.Repositories;
 
 namespace Vuelos.Application.UseCases.Command.Vuelos.AsignarVuelo
 {
+    [ExcludeFromCodeCoverage]
     public class AsignarVueloHandler : IRequestHandler<AsignarVueloCommand, Guid>
     {
         private readonly IVueloRepository _vueloRepository;

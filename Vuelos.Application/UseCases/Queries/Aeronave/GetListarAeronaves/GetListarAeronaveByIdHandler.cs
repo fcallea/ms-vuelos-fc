@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -10,6 +11,7 @@ using Vuelos.Domain.Repositories;
 
 namespace Vuelos.Application.UseCases.Queries.Aeronave.GetListarAeronaves
 {
+    [ExcludeFromCodeCoverage]
     public class GetListarAeronaveByIdHandler : IRequestHandler<GetListarAeronaveQuery, List<AeronaveDto>>
     {
         private readonly IAeronaveRepository _aeronaveRepository;

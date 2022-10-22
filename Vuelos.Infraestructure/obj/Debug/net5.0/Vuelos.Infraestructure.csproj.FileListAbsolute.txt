@@ -114,7 +114,6 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.runtimeconfig.dev.json
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.dll
-D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ref\Vuelos.Infraestructure.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Vuelos.Infraestructure.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\Shared.Rabbitmq.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\bin\Debug\net5.0\ShareKernel.dll
@@ -134,3 +133,4 @@ D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\ref\Vuelos.Infraestructure.dll
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.pdb
 D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\Vuelos.Infraestructure.genruntimeconfig.cache
+D:\DIPLOMADO\back-end-vuelos\ms-vuelos-fc\Vuelos.Infraestructure\obj\Debug\net5.0\refint\Vuelos.Infraestructure.dll
